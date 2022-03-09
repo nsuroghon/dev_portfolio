@@ -1,0 +1,58 @@
+// button light
+a { 
+    &:link, 
+    &:visited {
+        text-decoration: none;
+    }
+}
+
+.btn {
+    border-radius: 10rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    &:link,
+    &:visited {
+        text-decoration: none;
+        text-transform: none;
+    }
+
+    &--light {
+        border: 1px solid black;
+        line-height: 4rem;
+
+        &:hover {
+            border: 1px solid black;
+            background-color: black;
+            color: white;
+        }
+    }
+
+    &--dark {
+        border: 1px solid black;
+        background-color: black;
+        color: white;
+
+        &:hover {
+            background-color: white;
+            color: black;
+        }
+    }
+}
+// .btn-light {
+//     &:link,
+//     &:visited {
+//         text-transform: uppercase;
+//         text-decoration: none;
+//         padding: 1.5rem 4rem; 
+//         display: inline-block;
+//         border-radius: 10rem;
+//         transition: all .2s;
+//         position: relative;
+//         font-size: 1.6rem;
+//     }
+// }
+
+// button dark

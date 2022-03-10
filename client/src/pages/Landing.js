@@ -1,5 +1,6 @@
 import React from 'react'
 import { MdOutlineEdit } from 'react-icons/md'
+import Socials from '../components/Socials'
 
 const Landing = () => {
   return (
@@ -28,7 +29,8 @@ const Landing = () => {
           <a href='#' className='btn btn--dark'>Email <MdOutlineEdit style={{paddingTop: '0.3rem'}}/> </a>
         </div>
         <div className='landing__socials-box'>
-          <a href='#'>Social Media</a>
+          {/* <a href='#'>Social Media</a> */}
+          <Socials />
         </div>
     </div>
   )

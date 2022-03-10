@@ -5,6 +5,7 @@ import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import About from './pages/About';
 import Landing from './pages/Landing';
 import Projects from './pages/Projects';
+import Contact from './pages/Contact';
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
         <Route path='/projects' element={<Projects />}/>
 
         <Route path='/about' element={<About />} />
+        <Route path='/contact' element={<Contact />} />
+
       </Routes>
     </Router>
   );

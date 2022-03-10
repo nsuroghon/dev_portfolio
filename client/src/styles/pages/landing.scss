@@ -1,6 +1,6 @@
 .landing {
     // background-color: white;
-    height: 135vh;
+    height: 115vh;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -11,6 +11,14 @@
         display: flex;
         justify-content: space-evenly;
         flex-direction: column;
+    }
+
+    &__heading-box {
+        padding: 0rem 20rem;
+    }
+
+    &__email-box {
+        align-items: center;
     }
 
     // .centered-content-wrap {

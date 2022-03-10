@@ -1,0 +1,16 @@
+.contact {
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__inquiries {
+        padding-top: 8rem;
+        padding-bottom: 6rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}

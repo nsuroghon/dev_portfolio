@@ -1,23 +1,62 @@
+// layout
 .landing {
-    // background-color: white;
-    height: 115vh;
-    position: relative;
+    max-width: 100%;
+    margin: 2rem 2rem;
+    background-color: white;
+    min-height: 115vh;
+}
+
+.container {
+    height: 100rem;
+    // margin: 8rem auto;
+    // background-color: red;
+    // min-height: 50rem;
+}
+.content {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-
-    &__nav-box {
-        display: flex;
-        justify-content: space-evenly;
-        flex-direction: column;
+    
+    .logo-box {
+        text-align: center;
     }
 
-    &__heading-box {
-        padding: 0rem 20rem;
+    .nav-box {
+        text-align: center;
+        padding-top: 1rem;
+        padding-bottom: 2.2rem;
     }
 
-    &__email-box {
-        align-items: center;
+    .description {
+
+    }
+    .email-box {
+        text-align: center;
     }
 }
+
+
+
+
+
+// .landing {
+//     height: 115vh;
+//     position: relative;
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: space-evenly;
+//     align-items: center;
+
+//     &__nav-box {
+//         display: flex;
+//         justify-content: space-evenly;
+//         flex-direction: column;
+//     }
+
+//     &__heading-box {
+//         padding: 0rem 20rem;
+//     }
+
+//     &__email-box {
+//         align-items: center;
+//     }
+// }

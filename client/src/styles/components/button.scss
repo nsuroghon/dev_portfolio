@@ -8,14 +8,28 @@ a {
 
 .btn {
     border-radius: 10rem;
-    padding: 0.5rem 4rem;
-    text-transform: uppercase;
-    line-height: 5rem;
+    // text-transform: uppercase;
+    // line-height: 5rem;
     cursor: pointer;
 
     &:link,
     &:visited {
         text-decoration: none;
+    }
+
+    &--landing {
+        padding: 0.5rem 4rem;
+        text-transform: uppercase;
+        line-height: 5rem;
+    }
+
+    &--icon {
+        // padding: 1rem 1rem 1rem 1rem;
+        // align-self: center;
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
+        // flex-direction: row;
     }
 
     &--light {

@@ -7,7 +7,7 @@
 }
 
 .container {
-    height: 100rem;
+    // height: 100rem;
     // margin: 8rem auto;
     // background-color: red;
     // min-height: 50rem;
@@ -18,18 +18,22 @@
     
     .logo-box {
         text-align: center;
+        padding-top: 15rem;
     }
 
     .nav-box {
         text-align: center;
-        padding-top: 1rem;
+        padding-top: 5rem;
         padding-bottom: 2.2rem;
     }
 
     .description {
-
+        padding-top: 5rem;
+        padding-bottom: 5rem;
     }
     .email-box {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
         text-align: center;
     }
 }

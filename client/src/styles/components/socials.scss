@@ -1,36 +1,18 @@
 .socials {
-  // background-color: greenyellow;
   align-self: stretch;
 
   display: flex;
   justify-content: center;
 
-  & > * {
-    // display: flex;
-
-    // padding-top: 3.1px;
-    // padding-bottom: 20px;
-    // padding-left: 7px;
-    // padding-right: 7px;
-  }
-
-  & > *:hover {
-    // background-color: lightblue;
-    // background-color: black;
-    // color: white;
-  }
-
   &__icon-box {
     display: flex;
     align-items: center;
 
-    padding: 0 2rem; 
     cursor: pointer;
     height: 100%;
   }
 
   &__icon {
-    // background: black;
     height: 3.3rem;
     line-height: 3.3rem;
     width: 3.3rem;
@@ -46,90 +28,3 @@
     background: black;
   }
 }
-
-
-// .socials {
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-
-//     &__list {
-
-//     }
-
-//     &__item {
-//       display: inline-block;
-//       display: flex;
-//       align-self: center;
-//     }
-
-//     &__btn--icon {
-//       // align-self: center;
-//       background: white;
-//         height: 3.3rem;
-//         line-height: 3.3rem;
-//         text-align: center;
-//         width: 3.3rem;
-//         border-radius: 1.7rem;
-//     }
-    
-//     ul {
-
-//     }
-  
-//     li {
-//       display: inline-block;
-//       padding: 3rem 2rem 1rem 1rem;
-
-//       a {
-//         background: white;
-//         height: 3.3rem;
-//         line-height: 3.3rem;
-//         text-align: center;
-//         width: 3.3rem;
-//         border-radius: 1.7rem;
-//       }
-      
-//       btn--icon {
-//         fill: black;
-//         height: 2.7rem;
-//         opacity: 1;
-//         width: 2.7rem;
-//         vertical-align: middle;
-//       }
-//       border: 1px solid black;
-//       border-radius: 1.7rem;
-//       padding: 0.5rem 0.5rem;
-//       margin: 1rem;
-//       width: calc(100% / 3);
-//       height: 120px;
-//       text-align: center;
-
-//       &:hover {
-//         // color: white;
-//         background-color: black;
-//         border-color: black;
-//         padding: inherit;
-//         margin: inherit;
-//       }
-//     }
-//   }
-
-// .socials {
-//     ul {
-//        li {
-//            display: inline-block;
-//            position: relative;
-//        }
-//     }
-
-//     .a {
-//         display: block;
-//         text-align: center;
-//         background: white;
-//         height: 3.3rem;
-//         line-height: 3.3rem;
-//         width: 3.3rem;
-//         border-radius: 1.7rem;
-//     }
-// }

@@ -1,6 +1,7 @@
-import React from 'react'
-import { MdOutlineEdit } from 'react-icons/md'
-import Socials from '../components/Socials'
+import React from 'react';
+import {Link} from 'react-router-dom';
+import { MdOutlineEdit } from 'react-icons/md';
+import Socials from '../components/Socials';
 
 const Landing = () => {
   return (
@@ -13,13 +14,13 @@ const Landing = () => {
                 </div>
                 <div className="nav-box">
                   <div className="btn-container">
-                    <a className='btn btn--landing btn--light'>Button</a>
+                    <Link to="#" className='btn btn--landing btn--light'>Projects</ Link>
                   </div>
                   <div className="btn-container">
-                    <a className='btn btn--landing btn--light'>Button</a>
+                    <Link to="/about" className='btn btn--landing btn--light'>About</ Link>
                   </div>
                   <div className="btn-container">
-                    <a className='btn btn--landing btn--light'>Button</a>
+                    <Link to="#" className='btn btn--landing btn--light'>Resume</ Link>
                   </div>
                 </div>
                 <div className="description">
@@ -28,7 +29,7 @@ const Landing = () => {
                 Cras a sapien venenatis, interdum mi vel, laoreet libero.
                 </div>
                 <div className="email-box">
-                  <a href='#' className='btn btn--landing btn--dark'>Email <MdOutlineEdit style={{paddingTop: '0.3rem'}}/> </a>
+                  <Link to='/contact' className='btn btn--landing btn--dark'>Email <MdOutlineEdit style={{paddingTop: '0.3rem'}}/> </Link>
                 </div>
           
                 <Socials />

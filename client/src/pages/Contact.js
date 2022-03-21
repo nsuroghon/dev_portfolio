@@ -1,4 +1,5 @@
 import React from 'react'
+
 import { MdOutlineMarkEmailRead } from 'react-icons/md'
 
 const Contact = () => {

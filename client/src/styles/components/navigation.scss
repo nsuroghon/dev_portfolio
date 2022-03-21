@@ -1,0 +1,14 @@
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5rem;
+
+    &__menu {
+        display: flex;
+
+    }
+
+    &__menu-items {
+        display: flex;
+    }
+}

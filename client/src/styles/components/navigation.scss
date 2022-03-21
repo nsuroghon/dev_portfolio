@@ -8,7 +8,27 @@
 
     }
 
-    &__menu-items {
+    &__menu-list {
         display: flex;
+        align-items: center;
+    }
+
+    &__menu-item {
+        padding-right: 3rem;
+
+        a { 
+            color: rgb(0, 0, 0);
+            font-family: Arial;
+            font-size: 1.4rem;
+            font-style: normal;
+            font-weight: bold;
+            text-transform: uppercase;
+
+            cursor: pointer;
+        }
+
+        a:hover {
+            color: orange;
+        }
     }
 }

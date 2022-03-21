@@ -9,10 +9,19 @@ const Navigation = () => {
       </div>
 
       <div className="navigation__menu">
-        <div className="navigation__menu-items">
-          <div>1</div>
-          <div>2</div>
-          <div>3</div>
+        <div className="navigation__menu-list">
+          <div className='navigation__menu-item'>
+            <a>Main</a>
+          </div>
+          <div className='navigation__menu-item'>
+            <a>Projects</a>
+          </div>
+          <div className='navigation__menu-item'>
+            <a>About</a>
+          </div>
+          <div className='navigation__menu-item'>
+            <a>Resume</a>
+          </div>
         </div>
 
         <div className="menu-socials">

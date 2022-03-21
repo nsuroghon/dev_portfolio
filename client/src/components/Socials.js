@@ -9,17 +9,17 @@ const Socials = () => {
     <div className="socials">
         <div className="socials__icon-box">
             <a className='socials__icon'>
-                <FiGithub />
+                <FiGithub size={14} />
             </a>
         </div>
         <div className="socials__icon-box">
             <a className='socials__icon'>
-                <FaLinkedinIn />
+                <FaLinkedinIn size={15} />
             </a>
         </div>
         <div className="socials__icon-box">
             <a className='socials__icon'>
-                <MdOutlineEmail />
+                <MdOutlineEmail size={16} />
             </a>
         </div>
             {/* <ul className='socials__list'>

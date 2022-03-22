@@ -1,9 +1,10 @@
 import React from 'react'
+import Navigation from '../components/Navigation'
 
 const Projects = () => {
   return (
-    <div>Projects
-      
+    <div>
+      <Navigation />
     </div>
   )
 }

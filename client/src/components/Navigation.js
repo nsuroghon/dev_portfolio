@@ -17,10 +17,10 @@ const Navigation = () => {
             <Link to="/"><a>Main</a></Link>
           </div>
           <div className='navigation__menu-item'>
-            <a>Projects</a>
+            <Link to="/projects"><a>Projects</a></Link>
           </div>
           <div className='navigation__menu-item'>
-            <a>Skills / Resume</a>
+            <Link to="/skills"><a>Skills / Resume</a></Link>
           </div>
         </div>
 

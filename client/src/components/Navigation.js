@@ -1,5 +1,7 @@
 import React from 'react'
 import Socials from '../components/Socials'
+import {Link} from 'react-router-dom';
+
 
 const Navigation = () => {
   return (
@@ -9,22 +11,20 @@ const Navigation = () => {
       </div>
 
       <div className="navigation__menu">
+
         <div className="navigation__menu-list">
           <div className='navigation__menu-item'>
-            <a>Main</a>
+            <Link to="/"><a>Main</a></Link>
           </div>
           <div className='navigation__menu-item'>
             <a>Projects</a>
           </div>
           <div className='navigation__menu-item'>
-            <a>About</a>
-          </div>
-          <div className='navigation__menu-item'>
-            <a>Resume</a>
+            <a>Skills / Resume</a>
           </div>
         </div>
 
-        <div className="menu-socials">
+        <div className="navigation__menu-socials">
           <Socials />
         </div>
       </div>

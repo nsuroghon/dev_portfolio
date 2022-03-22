@@ -2,10 +2,10 @@ import './styles/main.scss';
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 
 // Pages
-import About from './pages/About';
 import Landing from './pages/Landing';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
+import Skills from './pages/Skills';
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
         </div> */}
         <Route path='/projects' element={<Projects />}/>
 
-        <Route path='/about' element={<About />} />
+        <Route path='/skills' element={<Skills />} />
         <Route path='/contact' element={<Contact />} />
 
       </Routes>

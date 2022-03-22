@@ -1,7 +1,7 @@
 import React from 'react'
 import Navigation from '../components/Navigation'
 
-const About = () => {
+const Skills = () => {
   return (
     <div>
       <Navigation />
@@ -9,4 +9,4 @@ const About = () => {
   )
 }
 
-export default About
+export default Skills

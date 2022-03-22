@@ -14,13 +14,13 @@ const Landing = () => {
                 </div>
                 <div className="nav-box">
                   <div className="btn-container">
-                    <Link to="#" className='btn btn--landing btn--light'>Projects</ Link>
+                    <Link to="/projects" className='btn btn--landing btn--light'>Projects</ Link>
                   </div>
                   <div className="btn-container">
-                    <Link to="/about" className='btn btn--landing btn--light'>About</ Link>
+                    <Link to="/skills" className='btn btn--landing btn--light'>Skills</ Link>
                   </div>
                   <div className="btn-container">
-                    <Link to="#" className='btn btn--landing btn--light'>Resume</ Link>
+                    <Link to="/" className='btn btn--landing btn--light'>Resume</ Link>
                   </div>
                 </div>
                 <div className="description">

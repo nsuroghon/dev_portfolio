@@ -8,7 +8,7 @@ const Skills = () => {
       <Navigation />
 
       <div className="skills__main-container">
-         <div className="skills__section-box">
+         <div className="skills__content-box">
             <h1 className='skills__header'><span>Education</span></h1>
             <div className="skills__data">
               {
@@ -30,7 +30,7 @@ const Skills = () => {
               }
             </div>
          </div>
-        <div className="skills__section-box">
+        <div className="skills__content-box">
           <h1 className='skills__header'><span>Skills</span></h1>     
             <div className="skills__data">
               {
@@ -54,7 +54,9 @@ const Skills = () => {
               }
             </div> 
          </div>
-         <p><a href="" target="_blank">FULL RESUME</a></p>
+        <div className='skills__email-box'>
+          <a className="btn btn--landing btn--dark" href="" target="_blank">Resume</a>
+        </div>
       </div>
     </div>
   )

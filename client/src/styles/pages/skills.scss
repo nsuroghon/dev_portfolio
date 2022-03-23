@@ -1,25 +1,37 @@
 .skills {
 
     &__main-container {
-        background-color: yellow;
         max-width: 120rem;
         min-height: 50rem;
         margin: 8rem auto;
 
     }
 
-    &__section-box {
+    &__content-box {
         display: flex;
-        flex-direction: column;
+        justify-content: space-between;
     }
 
     &__header {
-        align-self: center;
+        align-self: flex-start;
+        border-bottom: 3px solid orange;
+        padding-bottom: 0.4rem;
     }
 
     &__data {
         align-self: center;
         text-align: center;
         border-bottom: 1px solid black;
+    }
+
+    &__email-box {
+
+
+        // .btn-email {
+        //     border: 1px solid black;
+        //     padding: 1rem;
+        //     border-radius: 1rem;
+
+        // }
     }
 }

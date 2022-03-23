@@ -1,27 +1,21 @@
 import React from 'react'
 import Navigation from '../components/Navigation'
-
 import Data from '../data';
 
 const Skills = () => {
   return (
-    <div>
+    <div className="skills">
       <Navigation />
 
-      <div id="resume">
-
-         <div className="row education">
-
-            <div className="three columns header-col">
-               <h1><span>Education</span></h1>
-            </div>
-
-            <div className="nine columns main-col">
+      <div className="skills__main-container">
+         <div className="skills__section-box">
+            <h1 className='skills__header'><span>Education</span></h1>
+            <div className="skills__data">
               {
                 Data.education && Data.education.map((item)=>{
                   return(
-                    <div className="row item">
-                       <div className="twelve columns">
+                    <div className="">
+                       <div className="">
                           <h3>{item.UniversityName}</h3>
                           <p className="info">
                           {item.specialization}
@@ -36,21 +30,18 @@ const Skills = () => {
               }
             </div>
          </div>
-        <div className="row work">
-            <div className="three columns header-col">
-               <h1><span>Skills</span></h1>
-            </div>
-
-            <div className="nine columns main-col">
+        <div className="skills__section-box">
+          <h1 className='skills__header'><span>Skills</span></h1>     
+            <div className="skills__data">
               {
                 Data.work && Data.work.map((item) => {
                   return(
-                    <div className="row item">
-                       <div className="twelve columns">
+                    <div className="">
+                       <div className="">
                           <h3>{item.CompanyName}</h3>
-                          <p className="info">
+                          <p className="">
                           {item.specialization}
-                          <span>&bull;</span> <em className="date">{item.MonthOfLeaving} {item.YearOfLeaving}</em></p>
+                          <span>&bull;</span> <em className="">{item.MonthOfLeaving} {item.YearOfLeaving}</em></p>
                           <p>
                           {item.Achievements}
                           </p>
@@ -63,10 +54,7 @@ const Skills = () => {
               }
             </div> 
          </div>
-         <p style={{textAlign: "center",}}><a href="https://docs.google.com/document/d/1fvsFLHUKN0NHJ3oStc2KjUgiI8EBjdxI23G7Hx-ZGH0/edit?usp=sharing" target="_blank">FULL RESUME</a></p>
-         {/* <Button variant="secondary" size="sm">
-      Small button
-    </Button> */}
+         <p><a href="" target="_blank">FULL RESUME</a></p>
       </div>
     </div>
   )

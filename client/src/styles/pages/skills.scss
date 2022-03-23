@@ -1,0 +1,25 @@
+.skills {
+
+    &__main-container {
+        background-color: yellow;
+        max-width: 120rem;
+        min-height: 50rem;
+        margin: 8rem auto;
+
+    }
+
+    &__section-box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__header {
+        align-self: center;
+    }
+
+    &__data {
+        align-self: center;
+        text-align: center;
+        border-bottom: 1px solid black;
+    }
+}

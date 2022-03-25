@@ -13,25 +13,24 @@ a {
     cursor: pointer;
 
     &:link,
-    &:hover,
-    &:active
     &:visited {
         text-decoration: none;
     }
+
+    // &:focus {
+    //     outline: none;
+    //     animation: pulsate 1s infinite;
+    // } 
 
     &--landing {
         padding: 0.5rem 4rem;
         text-transform: uppercase;
         line-height: 5rem;
-    }
 
-    &--icon {
-        // padding: 1rem 1rem 1rem 1rem;
-        // align-self: center;
-        // display: flex;
-        // justify-content: center;
-        // align-items: center;
-        // flex-direction: row;
+
+        // &:focus {
+        //     animation: pulsate 1s infinite;
+        // }
     }
 
     &--light {
@@ -52,6 +51,7 @@ a {
         &:hover {
             background-color: white;
             color: black;
+
         }
     }
 }

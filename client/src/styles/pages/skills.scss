@@ -19,19 +19,17 @@
     }
 
     &__data {
-        align-self: center;
-        text-align: center;
         border-bottom: 1px solid black;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
     }
 
     &__email-box {
 
-
-        // .btn-email {
-        //     border: 1px solid black;
-        //     padding: 1rem;
-        //     border-radius: 1rem;
-
-        // }
+        text-align: center;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
     }
 }

@@ -10,12 +10,6 @@
     }
 }
 
-.container {
-    // height: 100rem;
-    // margin: 8rem auto;
-    // background-color: red;
-    // min-height: 50rem;
-}
 .content {
     display: flex;
     flex-direction: column;
@@ -32,8 +26,9 @@
     }
 
     .description {
-        padding-top: 5rem;
-        padding-bottom: 5rem;
+        padding: 5rem 20rem;
+
+        text-align: center;
     }
     .email-box {
         padding-top: 5rem;

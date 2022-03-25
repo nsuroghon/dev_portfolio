@@ -22,6 +22,9 @@ const Navigation = () => {
           <div className='navigation__menu-item'>
             <Link to="/skills"><a>Skills / Resume</a></Link>
           </div>
+          <div className='navigation__menu-item'>
+            <Link to="/contact"><a>Contact</a></Link>
+          </div>
         </div>
 
         <div className="navigation__menu-socials">

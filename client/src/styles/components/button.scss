@@ -16,9 +16,10 @@
         line-height: 5rem;
 
 
-        // &:focus {
-        //     animation: pulsate 1s infinite;
-        // }
+        &:hover {
+            outline: none;
+            animation: pulsate 1s infinite;
+        }
     }
 
     &--light {
@@ -41,5 +42,6 @@
             color: black !important;
 
         }
+
     }
 }

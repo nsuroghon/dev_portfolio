@@ -30,7 +30,7 @@ const Landing = () => {
                   </h1>
                 </div>
                 <div className="email-box">
-                  <Link to='/contact' className='btn btn--landing btn--dark'>Email <MdOutlineEdit style={{paddingTop: '0.3rem'}}/> </Link>
+                  <Link to='/contact' className='btn btn--landing btn--dark btn--animated'>Email <MdOutlineEdit style={{paddingTop: '0.3rem'}}/> </Link>
                 </div>
           
                 <Socials />

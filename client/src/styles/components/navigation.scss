@@ -3,6 +3,10 @@
     justify-content: space-between;
     padding: 2.5rem;
 
+    a {
+        text-decoration: none;
+    }
+
     &__menu {
         display: flex;
         align-items: center;

@@ -1,0 +1,19 @@
+.projects {
+    min-height: 100vh;
+}
+
+.projects-grid {
+    display: flex;
+    // min-height: auto;
+
+    &__project-item {
+        background-color: greenyellow;
+        height: 25rem;
+        width: 34rem;
+    }
+
+    &__project-item-cover {
+        background: rgba(255, 255, 255, 0.75);
+    }
+}
+

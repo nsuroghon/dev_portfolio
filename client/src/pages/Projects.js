@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react';
+import React, { useContext, useState, useEffect } from 'react';
 import {Link} from 'react-router-dom';
 
 // context
@@ -7,14 +7,16 @@ import ProjectsContext from '../context/ProjectsContext';
 // Components
 import Navigation from '../components/Navigation';
 import ProjectsGrid from '../components/ProjectsGrid';
+import SingleProject from '../components/SingleProject';
 
 
 const Projects = () => {
-  const {projects, displayProject, projectSelected} = useContext(ProjectsContext)
+  const {projects, displayProject, projectSelected, removeProject} = useContext(ProjectsContext)
 
-  console.log(projectSelected)
-
-  // const [selectedProject, setSelectedProject] = useState(null)
+  useEffect(() => {
+    removeProject()
+  }, [])
+  
 
   return projectSelected.displayed === false ? 
     <div className='projects'>
@@ -25,9 +27,12 @@ const Projects = () => {
 
     :
 
-    <h1>
-      True
-    </h1>
+    <div className='projects'>
+      <Navigation />
+      
+      <SingleProject />
+
+    </div>
 
   // return (
     // <div className='projects'>

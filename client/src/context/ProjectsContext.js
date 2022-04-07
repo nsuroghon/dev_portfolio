@@ -34,11 +34,19 @@ export const ProjectsProvider = ({children}) => {
         })
     }
 
+    const removeProject = () => {
+        setProjectSelected({
+            item: {},
+            displayed: false
+        })
+    }
+
     return <ProjectsContext.Provider 
         value={{
             projects,
             displayProject,
-            projectSelected
+            projectSelected,
+            removeProject
         }}
         >
         {children}

@@ -8,6 +8,7 @@ import ProjectsContext from '../context/ProjectsContext';
 import Navigation from '../components/Navigation';
 import ProjectsGrid from '../components/ProjectsGrid';
 import SingleProject from '../components/SingleProject';
+import Footer from '../components/Footer';
 
 
 const Projects = () => {
@@ -22,9 +23,7 @@ const Projects = () => {
     <div className='projects'>
       <Navigation />
       <ProjectsGrid />
-      <footer className='footer'>
-        <div className="footer__text">Niv Suroghon ® 2022</div>
-      </footer>
+      <Footer />
     </div>
 
     :

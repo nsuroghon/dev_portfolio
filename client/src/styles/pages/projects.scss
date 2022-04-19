@@ -4,16 +4,35 @@
 
 .projects-grid {
     display: flex;
-    // min-height: auto;
+    flex-wrap: wrap;
+
+    padding-top: 5%;
 
     &__project-item {
         background-color: greenyellow;
-        height: 25rem;
-        width: 34rem;
+        width: 25%;
     }
 
     &__project-item-cover {
         background: rgba(255, 255, 255, 0.75);
+    }
+}
+
+.footer {
+    color: rgb(221, 221, 221);
+
+    &__text {
+        font-family: arial;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 19px;
+        padding: 60px 0px;
+        text-align: center;
+        text-transform: none;
+        width: 100%;
+        bottom: 0;
+        position: fixed;
     }
 }
 

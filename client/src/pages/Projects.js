@@ -1,5 +1,5 @@
 import React, { useContext, useState, useEffect } from 'react';
-import {Link} from 'react-router-dom';
+// import {Link} from 'react-router-dom';
 
 // context
 import ProjectsContext from '../context/ProjectsContext';
@@ -22,16 +22,16 @@ const Projects = () => {
     <div className='projects'>
       <Navigation />
       <ProjectsGrid />
-
+      <footer className='footer'>
+        <div className="footer__text">Niv Suroghon ® 2022</div>
+      </footer>
     </div>
 
     :
 
     <div className='projects'>
       <Navigation />
-      
       <SingleProject />
-
     </div>
 
   // return (

@@ -2,18 +2,71 @@
     "projects": [
         {
             "id": 1,
-            "title": "projectName",
-            "text": "this is project text"
+            "title": "Amouyal Sisters - Social Media",
+            "text": "this is project text",
+            "headerImage": "string for header image",
+            "images": [
+                "/assets/images/Sold_226_Lady_Valentina_Ave.jpg",
+                "/assets/images/Sold_Bronte_Ave.jpg",
+                "/assets/images/laurendale_recordsale.jpg",
+                "/assets/images/balsamwood_open_house_2.jpg",
+                "/assets/images/226_Lady_Valentina.jpg",
+                "/assets/images/14_bobolink_dr.jpg"
+            ]
         },
         {
             "id": 2,
-            "title": "projectName",
-            "text": "this is project text"
+            "title": "NodeJS Mock Database",
+            "text": "this is project text",
+            "images": [
+                "/assets/images/node_backend_sample.png"
+            ],
+            "githubUrl": "https://github.com/nsuroghon/Employee-Database"
         },
         {
             "id": 3,
-            "title": "projectName",
-            "text": "this is project text"
+            "title": "Fitness +",
+            "text": "this is project text",
+            "images": [
+                "/assets/images/Fitness_1.png",
+                "/assets/images/Fitness_2.png"
+            ],
+            "githubUrl": "https://github.com/nsuroghon/Workout-Tracker"
+        },
+        {
+            "id": 4,
+            "title": "Dev Web",
+            "text": "this is project text",
+            "images": [
+                "/assets/images/Dev_Web.png",
+                "/assets/images/Dev_Web_2.png",
+                "/assets/images/Dev_Web_3.png",
+                "/assets/images/Dev_Web_4.png"
+            ],
+            "githubUrl": "https://github.com/nsuroghon/Dev-Web",
+            "visitUrl": "https://dev-web3.herokuapp.com"
+        },
+        {
+            "id": 5,
+            "title": "Budget",
+            "text": "this is project text",
+            "images": [
+                "/assets/images/Budget.png"
+            ],
+            "githubUrl": "https://github.com/nsuroghon/Budget-Tracker",
+            "visitUrl": "https://fierce-reef-41934.herokuapp.com"
+        },
+        {
+            "id": 6,
+            "title": "5 O'Clock Somewhere",
+            "text": "this is project text",
+            "images": [
+                "/assets/images/5_Oclock_1.png",
+                "/assets/images/5_Oclock_2.png",
+                "/assets/images/5_Oclock_3.png"
+            ],
+            "githubUrl": "https://github.com/nsuroghon/5-o-Clock-Somewhere",
+            "visitUrl": "https://nsuroghon.github.io/5-o-Clock-Somewhere/"
         }
     ] 
 }

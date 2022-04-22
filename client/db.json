@@ -5,6 +5,7 @@
             "title": "Amouyal Sisters - Social Media",
             "text": "this is project text",
             "headerImage": "string for header image",
+            "thumbnail": "/assets/images/sample_1.jpg",
             "images": [
                 "/assets/images/Sold_226_Lady_Valentina_Ave.jpg",
                 "/assets/images/Sold_Bronte_Ave.jpg",
@@ -18,6 +19,7 @@
             "id": 2,
             "title": "NodeJS Mock Database",
             "text": "this is project text",
+            "thumbnail": "/assets/images/sample_1.jpg",
             "images": [
                 "/assets/images/node_backend_sample.png"
             ],
@@ -27,6 +29,7 @@
             "id": 3,
             "title": "Fitness +",
             "text": "this is project text",
+            "thumbnail": "/assets/images/sample_1.jpg",
             "images": [
                 "/assets/images/Fitness_1.png",
                 "/assets/images/Fitness_2.png"
@@ -37,6 +40,7 @@
             "id": 4,
             "title": "Dev Web",
             "text": "this is project text",
+            "thumbnail": "/assets/images/sample_1.jpg",
             "images": [
                 "/assets/images/Dev_Web.png",
                 "/assets/images/Dev_Web_2.png",
@@ -50,6 +54,7 @@
             "id": 5,
             "title": "Budget",
             "text": "this is project text",
+            "thumbnail": "/assets/images/sample_1.jpg",
             "images": [
                 "/assets/images/Budget.png"
             ],
@@ -60,6 +65,7 @@
             "id": 6,
             "title": "5 O'Clock Somewhere",
             "text": "this is project text",
+            "thumbnail": "/assets/images/sample_1.jpg",
             "images": [
                 "/assets/images/5_Oclock_1.png",
                 "/assets/images/5_Oclock_2.png",

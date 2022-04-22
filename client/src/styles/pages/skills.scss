@@ -9,21 +9,17 @@
 
     &__content-box {
         display: flex;
-        justify-content: space-between;
     }
 
     &__header {
-        align-self: flex-start;
-        border-bottom: 3px solid orange;
-        padding-bottom: 0.4rem;
+        width: 40%;
+
+        display: flex;
+        justify-content: center;
     }
 
     &__data {
-        border-bottom: 1px solid black;
-
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
+        width: max-content;
     }
 
     &__email-box {

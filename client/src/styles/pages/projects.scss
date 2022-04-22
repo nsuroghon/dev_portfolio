@@ -6,11 +6,15 @@
     display: flex;
     flex-wrap: wrap;
 
-    padding-top: 5%;
+    padding-top: 5rem;
 
     &__project-item {
         background-color: greenyellow;
         width: 25%;
+        height: 25rem;
+
+        background-size: cover;
+        background-position: center;
     }
 
     &__project-item-cover {

@@ -1,6 +1,9 @@
 import React from 'react'
-import Navigation from '../components/Navigation'
 import Data from '../data';
+
+import Navigation from '../components/Navigation';
+import Footer from '../components/Footer';
+
 
 const Skills = () => {
   return (
@@ -14,10 +17,10 @@ const Skills = () => {
               {
                 Data.education && Data.education.map((item)=>{
                   return(
-                    <div className="">
-                       <div className="">
+                    <div>
+                       <div>
                           <h3>{item.UniversityName}</h3>
-                          <p className="info">
+                          <p>
                           {item.specialization}
                           <span>&bull;</span> <em className="date">{item.MonthOfPassing} {item.YearOfPassing}</em></p>
                           <p>
@@ -58,6 +61,8 @@ const Skills = () => {
           <a className="btn btn--landing btn--dark" href="" target="_blank">Resume</a>
         </div>
       </div>
+
+      <Footer />
     </div>
   )
 }

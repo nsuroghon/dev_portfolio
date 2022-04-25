@@ -1,17 +1,22 @@
 .footer {
     color: rgb(221, 221, 221);
+    
+    font-family: arial;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    padding: 60px 0px;
+    text-align: center;
+    text-transform: none;
+    width: 100%;
 
-    &__text {
-        font-family: arial;
-        font-size: 13px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 19px;
-        padding: 60px 0px;
-        text-align: center;
-        text-transform: none;
-        width: 100%;
-        bottom: 0;
-        // position: fixed;
-    }
+    // &__text {
+    //     font-family: arial;
+    //     font-size: 13px;
+    //     font-style: normal;
+    //     font-weight: 400;
+    //     line-height: 19px;
+    //     text-transform: none;
+    // }
 }

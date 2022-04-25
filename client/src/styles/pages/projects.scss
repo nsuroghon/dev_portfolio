@@ -15,10 +15,20 @@
 
         background-size: cover;
         background-position: center;
+
     }
 
     &__project-item-cover {
-        background: rgba(255, 255, 255, 0.75);
+        color: transparent;
+        background: none;
+
+        width: auto;
+        height: 25rem;
+
+        :hover {
+            color: black;
+            background: rgba(255, 255, 255, 0.75);
+        }
     }
 }
 

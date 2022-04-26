@@ -29,7 +29,7 @@
             "id": 3,
             "title": "Fitness +",
             "text": "this is project text",
-            "thumbnail": "/assets/images/sample_3.jpg",
+            "thumbnail": "/assets/images/Fitness_2_new.jpg",
             "images": [
                 "/assets/images/Fitness_1.png",
                 "/assets/images/Fitness_2.png"
@@ -40,7 +40,7 @@
             "id": 4,
             "title": "Dev Web",
             "text": "this is project text",
-            "thumbnail": "/assets/images/sample_1.jpg",
+            "thumbnail": "/assets/images/sample_1_new.jpg",
             "images": [
                 "/assets/images/Dev_Web.png",
                 "/assets/images/Dev_Web_2.png",

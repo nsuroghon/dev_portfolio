@@ -13,6 +13,7 @@ const ProjectsGrid = () => {
           //   onClick={() => displayProject(project)}
           //   // style={{backgroundImage: `url(${project.thumbnail})`}}
           //   >
+          <div>
             <img className='grid__item'
               src={project.thumbnail}
               key={project.id} 
@@ -22,8 +23,10 @@ const ProjectsGrid = () => {
               height='360'
               width='360'
             >
-
+          
             </img>
+            {/* <div className="overlay">{project.title}</div> */}
+          </div>
             // {/* <div className="projects-grid__project-item-cover">
             //   <div className="h2">{project.title}</div>
             //   <p>{project.text}</p>

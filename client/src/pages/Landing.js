@@ -25,15 +25,14 @@ const Landing = () => {
                 </div>
                 <div className="description">
                   <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nec urna pharetra, tempus risus venenatis, commodo nibh. Morbi eros tellus, ultricies id ornare at, vehicula ut nisl.
-                    Donec eros augue, auctor nec justo maximus, placerat imperdiet lacus. Cras risus nisl, accumsan ac fringilla at, vulputate ut libero.
-                    Cras a sapien venenatis, interdum mi vel, laoreet libero.
+                    Donec eros augue, auctor nec justo maximus, placerat imperdiet lacus.
                   </h1>
                 </div>
                 <div className="email-box">
                   <Link to='/contact' className='btn btn--landing btn--dark btn--animated'>Email <MdOutlineEdit style={{paddingTop: '0.3rem'}}/> </Link>
                 </div>
           
-                <Socials />
+                <Socials className='landing__socials-box' />
               
                 
             </div>

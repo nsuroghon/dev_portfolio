@@ -7,8 +7,8 @@ const Navigation = () => {
   return (
     <div className='navigation'>
       <div className="navigation__logo-wrap">
-        <Link className='logo' to="/">
-            <img src=''></img>
+        <Link to="/">
+            <img className='logo' src='/assets/images/signature_medium.png'></img>
         </Link>
 
       </div>

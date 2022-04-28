@@ -6,10 +6,6 @@
     &__logo-wrap {
         display: flex;
         align-items: flex-start;
-
-        .logo {
-
-        }
     }
 
     a {
@@ -19,6 +15,10 @@
     &__menu {
         display: flex;
         align-items: center;
+
+        @media only screen and (max-width: $bp-medium) {
+            flex-flow: wrap;
+        }
 
     }
 

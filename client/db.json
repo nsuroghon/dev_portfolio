@@ -74,5 +74,37 @@
             "githubUrl": "https://github.com/nsuroghon/5-o-Clock-Somewhere",
             "visitUrl": "https://nsuroghon.github.io/5-o-Clock-Somewhere/"
         }
-    ] 
+    ],
+    "skills" : [
+        {
+            "id": 1,
+            "type": "Front End",
+            "technology": [],
+            "concepts": []
+        },
+        {
+            "id": 2,
+            "type": "Back End",
+            "technology": [],
+            "concepts": []
+        },
+        {
+            "id": 3,
+            "type": "",
+            "technology": ["Adobe Photoshop"],
+            "concepts": ["SEO"]
+        }
+    ],
+    "education" : [
+        {
+            "id": 1,
+            "university": "University of Toronto",
+            "Degree": "Graduate Certificate - Full Stack Development"
+        },
+        {
+            "id": 2,
+            "university": "Western University",
+            "Degree": "Bachelor of Arts - Political Science"
+        }
+    ]
 }

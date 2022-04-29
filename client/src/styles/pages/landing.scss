@@ -28,7 +28,16 @@
             padding: 0.3rem;
         }
     }
+    .name {
+        font-size: 1.5rem;
+        line-height: 5rem;
+        letter-spacing: 0.1rem;
+        font-weight: 400;
+        text-transform: uppercase;
 
+        // margin-top: 8px;
+        margin-bottom: 8px;
+    }
     .description {
         padding: 5rem 20rem;
 

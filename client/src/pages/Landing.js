@@ -24,9 +24,8 @@ const Landing = () => {
                   </div>
                 </div>
                 <div className="description">
-                  <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nec urna pharetra, tempus risus venenatis, commodo nibh. Morbi eros tellus, ultricies id ornare at, vehicula ut nisl.
-                    Donec eros augue, auctor nec justo maximus, placerat imperdiet lacus.
-                  </h1>
+                  <h1 className='name'>Niv Suroghon</h1>
+                  <h1>Canadian-based software developer since 2020. </h1>
                 </div>
                 <div className="email-box">
                   <Link to='/contact' className='btn btn--landing btn--dark btn--animated'>Email <MdOutlineEdit style={{paddingTop: '0.3rem'}}/> </Link>

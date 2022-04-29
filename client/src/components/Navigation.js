@@ -2,6 +2,19 @@ import React from 'react'
 import Socials from '../components/Socials'
 import {Link} from 'react-router-dom';
 
+const toggleButton = document.getElementsByClassName('toggle-button')[0];
+const navbarLinks = document.getElementsByClassName('navigation__menu')[0];
+
+const setActive = () => {
+  const navbarLinks = document.getElementsByClassName('navigation__menu')[0];
+  navbarLinks.classList.toggle('active');
+}
+
+// toggleButton.addEventListener('click', () => {
+//   navbarLinks.classList.toggle('active');
+// })
+
+
 
 const Navigation = () => {
   return (
@@ -10,11 +23,15 @@ const Navigation = () => {
         <Link to="/">
             <img className='logo' src='/assets/images/signature_medium.png'></img>
         </Link>
-
       </div>
 
-      <div className="navigation__menu">
+      <a href="#" onClick={setActive} className='navigation__toggle-button'>
+        <span className='navigation__bar'></span>
+        <span className='navigation__bar'></span>
+        <span className='navigation__bar'></span>
+      </a>
 
+      <div className="navigation__menu">
         <div className="navigation__menu-list">
           <div className='navigation__menu-item'>
             <Link to="/"><a>Main</a></Link>
@@ -34,11 +51,6 @@ const Navigation = () => {
           <Socials />
         </div>
       </div>
-
-      {/* <div className="navigation__socials">
-        <Socials />
-      </div> */}
-
     </div>
   )
 }

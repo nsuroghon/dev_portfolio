@@ -75,6 +75,27 @@
             "visitUrl": "https://nsuroghon.github.io/5-o-Clock-Somewhere/"
         }
     ],
+
+    "resume": {
+        "skills": [],
+        "education": [
+            {
+                "id": 1,
+                "degree": "Bachelor of Arts",
+                "major": "Political Science",
+                "institution": "Western University",
+                "gradYear": 2020
+            },
+            {
+                "id": 2,
+                "degree": "Post-Graduate Certificate ",
+                "major": "Full Stack Development",
+                "institution": "University of Toronto",
+                "gradYear": 2021
+            }
+        ]
+    },
+
     "skills" : [
         {
             "id": 1,
@@ -93,18 +114,6 @@
             "type": "",
             "technology": ["Adobe Photoshop"],
             "concepts": ["SEO"]
-        }
-    ],
-    "education" : [
-        {
-            "id": 1,
-            "university": "University of Toronto",
-            "Degree": "Graduate Certificate - Full Stack Development"
-        },
-        {
-            "id": 2,
-            "university": "Western University",
-            "Degree": "Bachelor of Arts - Political Science"
         }
     ]
 }

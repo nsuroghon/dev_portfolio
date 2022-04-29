@@ -4,7 +4,7 @@ const ProjectsContext = createContext();
 
 export const ProjectsProvider = ({children}) => {
 
-    // Sample projects
+    // PROJECTS
 
     const [projects, setProjects] = useState([]);
     const [projectSelected, setProjectSelected] = useState({
@@ -40,6 +40,12 @@ export const ProjectsProvider = ({children}) => {
             displayed: false
         })
     }
+
+    // RESUME
+
+
+
+
 
     return <ProjectsContext.Provider 
         value={{

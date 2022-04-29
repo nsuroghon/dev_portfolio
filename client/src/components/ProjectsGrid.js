@@ -8,11 +8,6 @@ const ProjectsGrid = () => {
     <div className="grid">
 
         {projects.map((project) => 
-          // <div className='grid__item'
-          //   key={project.id} 
-          //   onClick={() => displayProject(project)}
-          //   // style={{backgroundImage: `url(${project.thumbnail})`}}
-          //   >
           <div>
             <img className='grid__item'
               src={project.thumbnail}
@@ -20,18 +15,9 @@ const ProjectsGrid = () => {
               onClick={() => displayProject(project)}
               // src="http://fakeimg.pl/360x360/111/?text=2"
               alt={project.title}
-              height='360'
-              width='360'
             >
-          
             </img>
-            {/* <div className="overlay">{project.title}</div> */}
           </div>
-            // {/* <div className="projects-grid__project-item-cover">
-            //   <div className="h2">{project.title}</div>
-            //   <p>{project.text}</p>
-            // </div> */}
-          // </div>
 
         )}
       </div>

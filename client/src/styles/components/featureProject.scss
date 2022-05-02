@@ -1,0 +1,46 @@
+.featured {
+    background-color: greenyellow;
+
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+    &__content {
+        margin: 0 auto;
+        padding: 0 20px;
+        text-align: left;
+        max-width: 1240px;
+    }
+
+    &__metatitle {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__title {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__description {
+        text-align: center;
+
+    }
+
+    &__more-info {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__images {
+
+        display: flex;
+        justify-content: center;
+
+        img {
+            width: 95vw;
+            height: auto;
+            margin: 0 0 0.5% 0;
+        }
+    }
+}

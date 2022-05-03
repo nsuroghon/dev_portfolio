@@ -8,8 +8,8 @@
 
     &__content {
         margin: 0 auto;
-        padding: 0 20px;
-        max-width: 100%;
+        padding: 0 2rem;
+        max-width: 124rem;
         padding-top: 2rem;
     }
 
@@ -63,11 +63,11 @@
         background-color: rgb(29, 29, 29);
         display: block;
         position: fixed;
-        width: 39px;
-        height: 120px;
+        width: 3.9rem;
+        height: 12rem;
         right: 0;
         top: 50%;
-        margin: -60px 0 0 0;
+        margin: -6rem 0 0 0;
         z-index: 55;
 
         
@@ -84,18 +84,18 @@
         a {
             display: block;
             position: relative;
-            width: 39px;
-            height: 39px;
+            width: 3.9rem;
+            height: 3.9rem;
             margin: 0;
             padding: 0;
             list-style: none;
             transform-style: preserve-3d;
-            perspective: 80px;
+            perspective: 8rem;
 
             padding-top: 0.5rem;
             
             .bar {
-                height: 2px;
+                height: 0.2rem;
                 // width: 100%;
                 background-color: white;
                 display: block;

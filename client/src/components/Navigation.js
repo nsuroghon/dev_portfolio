@@ -21,7 +21,7 @@ const Navigation = () => {
     <div className='navigation'>
       <div className="navigation__logo-wrap">
         <Link to="/">
-            <img className='logo' src='/assets/images/signature_medium.png'></img>
+            <img className='logo' src='/assets/images/signature_medium.png' width={105} height={50}></img>
         </Link>
       </div>
 

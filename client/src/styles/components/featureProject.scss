@@ -1,35 +1,50 @@
 .featured {
-    background-color: greenyellow;
-
     display: flex;
     flex-direction: column;
     flex: 1;
+    max-width: 100%;
+
+    background-color: black;
 
     &__content {
         margin: 0 auto;
         padding: 0 20px;
-        text-align: left;
-        max-width: 1240px;
+        max-width: 100%;
+        padding-top: 2rem;
     }
 
     &__metatitle {
         display: flex;
         justify-content: center;
+
+        color: white;
     }
 
     &__title {
         display: flex;
         justify-content: center;
+        padding-bottom: 1rem;
+
+        color: #ccc;
     }
 
     &__description {
+        display: flex;
+        flex-flow: wrap;
+
         text-align: center;
+        color: #999;
 
     }
 
     &__more-info {
         display: flex;
         justify-content: center;
+        color: #999;
+
+        p {
+            margin: 1rem 0.5rem;
+        }
     }
 
     &__images {
@@ -41,6 +56,58 @@
             width: 95vw;
             height: auto;
             margin: 0 0 0.5% 0;
+        }
+    }
+
+    .tools {
+        background-color: rgb(29, 29, 29);
+        display: block;
+        position: fixed;
+        width: 39px;
+        height: 120px;
+        right: 0;
+        top: 50%;
+        margin: -60px 0 0 0;
+        z-index: 55;
+
+        
+        // span {
+        //     height: 3px;
+        //     width: 100%;
+        //     background-color: #ccc;
+        //     border-radius: 10px;
+        // }
+
+    }
+
+    .tool {        
+        a {
+            display: block;
+            position: relative;
+            width: 39px;
+            height: 39px;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            transform-style: preserve-3d;
+            perspective: 80px;
+
+            padding-top: 0.5rem;
+            
+            .bar {
+                height: 2px;
+                // width: 100%;
+                background-color: white;
+                display: block;
+                margin: 0.5rem 0.75rem;
+                // border-radius: 10px;
+            }
+        }
+
+        &:hover {
+            background-color: white;
+
+            .bar {background-color: rgb(29, 29, 29);}
         }
     }
 }

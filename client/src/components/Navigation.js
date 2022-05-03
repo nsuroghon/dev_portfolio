@@ -10,12 +10,6 @@ const setActive = () => {
   navbarLinks.classList.toggle('active');
 }
 
-// toggleButton.addEventListener('click', () => {
-//   navbarLinks.classList.toggle('active');
-// })
-
-
-
 const Navigation = () => {
   return (
     <div className='navigation'>

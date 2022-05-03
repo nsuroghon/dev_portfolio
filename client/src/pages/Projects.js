@@ -32,32 +32,6 @@ const Projects = () => {
       <Navigation />
       <SingleProject />
     </div>
-
-  // return (
-    // <div className='projects'>
-    //   <Navigation />
-    //   <div className="projects-grid">
-
-    //     {projects.map((project) => 
-    //     <Link 
-    //     to='/featureProject'
-    //     >
-    //       <div className='projects-grid__project-item'
-    //       key={project.id} 
-    //       onClick={() => displayProject(project)}
-    //       >
-    //         <div className="projects-grid__project-item-cover">
-    //           <div className="h2">{project.title}</div>
-    //           <p>{project.text}</p>
-    //         </div>
-    //       </div>
-
-    //     </Link>
-    //     )}
-    //   </div>
-
-    // </div>
-  // )
 }
 
 export default Projects

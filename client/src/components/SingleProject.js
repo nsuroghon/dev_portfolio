@@ -52,11 +52,11 @@ const SingleProject = () => {
 
       <div className='tools'>
         <div className="tool">
-          <button onClick={scrollUp}>
+          <a onClick={scrollUp}>
             <span className='bar'></span>
             {/* <span className='bar'></span>
             <span className='bar'></span> */}
-          </button>
+          </a>
         </div>
         <div className="tool">
           <a href='#' onClick={removeProject}>
@@ -66,11 +66,11 @@ const SingleProject = () => {
           </a>
         </div>
         <div className="tool">
-          <button onClick={scrollDown}>
+          <a onClick={scrollDown}>
             <span className='bar'></span>
             {/* <span className='bar'></span>
             <span className='bar'></span> */}
-          </button >
+          </a >
         </div>
       </div>
 

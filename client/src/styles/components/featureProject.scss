@@ -97,20 +97,6 @@
             }
         }
 
-        button {
-            display: block;
-            position: relative;
-            width: 3.9rem;
-            height: 3.9rem;
-            margin: 0;
-            padding: 0;
-            list-style: none;
-            transform-style: preserve-3d;
-            perspective: 8rem;
-
-            padding-top: 0.5rem;
-        }
-
         &:hover {
             background-color: white;
 

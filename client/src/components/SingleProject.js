@@ -1,11 +1,71 @@
 import React, { useContext, useEffect, useState } from 'react';
+import { gsap } from "gsap";
 import {Link} from 'react-router-dom';
+import $ from 'jquery'; 
+import * as Scroll from 'react-scroll';
+import { Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
 
+// components 
+import Footer from '../components/Footer';
 // context
 import ProjectsContext from '../context/ProjectsContext';
 
 const SingleProject = () => {
     const {projectSelected, removeProject} = useContext(ProjectsContext)
+
+  // PAGE MOVEMENT MAGIC
+  // var moveOffset = $(document).height();
+
+  // function moveUp() {
+  //   moveOffset = window.pageYOffset - $(window).height()/2;
+  //   if (moveOffset < 0) {
+  //     moveOffset = 0;
+  //   }
+  //   moveAround();
+  // }
+
+  // function moveDown() {
+  //   moveOffset = window.pageYOffset + $(window).height()/2;
+  //   var moveMax = ($(document).height() - $(window).height());
+  //   if (moveOffset > moveMax) {
+  //     moveOffset = moveMax;
+  //   }
+  //   moveAround();
+  // }
+
+  // function moveTop() {
+  //   moveOffset = 0;
+  //   moveAround();
+  // }
+
+  // function moveBottom() {
+  //   moveOffset = ($(document).height() - $(window).height());
+  //   moveAround();
+  // }
+
+  // function moveAround() {
+  //   gsap.to(window, 1, { scrollTo: { y: moveOffset }, ease: "power4.out" });
+  //   return false;
+  // }
+    // const scrollWindow = (x,y) => {
+    //   window.scrollBy(x,y)
+    // }
+
+    // const scrollWindow = (x,y) => {
+    //   window.scrollBy(x,y)
+    // }
+    const scrollUp = () => {
+      window.scrollBy({
+          top: -200,
+          behavior: 'smooth'
+      });
+    };
+    const scrollDown = () => {
+      window.scrollBy({
+          top: 200,
+          behavior: 'smooth'
+      });
+    };
 
   return (
     <div className="featured">
@@ -32,24 +92,29 @@ const SingleProject = () => {
 
       <div className='tools'>
         <div className="tool">
+          <button onClick={scrollUp}>
+            <span className='bar'></span>
+            {/* <span className='bar'></span>
+            <span className='bar'></span> */}
+          </button>
+        </div>
+        <div className="tool">
           <a href='#' onClick={removeProject}>
             <span className='bar'></span>
             <span className='bar'></span>
             <span className='bar'></span>
           </a>
         </div>
-        {/* <a href="#" onClick={removeProject}>
-          <span className='tools_bar'></span>
-          <span className='tools__bar'></span>
-          <span className='tools__bar'></span>
-        </a> */}
-        {/* <a className='tools' href='#' onClick={removeProject}>X
-          <span></span>
-          <span></span>
-          <span></span>
-        </a> */}
+        <div className="tool">
+          <button onClick={scrollDown}>
+            <span className='bar'></span>
+            {/* <span className='bar'></span>
+            <span className='bar'></span> */}
+          </button >
+        </div>
       </div>
 
+      <Footer />
 
     </div>
   )

@@ -1,6 +1,5 @@
 import React, { useContext, useEffect, useState } from 'react';
 import Navigation from '../components/Navigation';
-
 import ProjectsContext from '../context/ProjectsContext';
 
 const FeatureProject = () => {
@@ -19,15 +18,11 @@ const FeatureProject = () => {
   return (
     <div className='featuredProjPage'>
       <Navigation />
-
       <div className="featuredContent">
         <div className="h1">{selected.id}</div>
         <div className="h1">{selected.text}</div>
         <div className="h1">{selected.title}</div>
-
-        
       </div>
-      
     </div>
   )
 }

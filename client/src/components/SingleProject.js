@@ -13,47 +13,7 @@ import ProjectsContext from '../context/ProjectsContext';
 const SingleProject = () => {
     const {projectSelected, removeProject} = useContext(ProjectsContext)
 
-  // PAGE MOVEMENT MAGIC
-  // var moveOffset = $(document).height();
-
-  // function moveUp() {
-  //   moveOffset = window.pageYOffset - $(window).height()/2;
-  //   if (moveOffset < 0) {
-  //     moveOffset = 0;
-  //   }
-  //   moveAround();
-  // }
-
-  // function moveDown() {
-  //   moveOffset = window.pageYOffset + $(window).height()/2;
-  //   var moveMax = ($(document).height() - $(window).height());
-  //   if (moveOffset > moveMax) {
-  //     moveOffset = moveMax;
-  //   }
-  //   moveAround();
-  // }
-
-  // function moveTop() {
-  //   moveOffset = 0;
-  //   moveAround();
-  // }
-
-  // function moveBottom() {
-  //   moveOffset = ($(document).height() - $(window).height());
-  //   moveAround();
-  // }
-
-  // function moveAround() {
-  //   gsap.to(window, 1, { scrollTo: { y: moveOffset }, ease: "power4.out" });
-  //   return false;
-  // }
-    // const scrollWindow = (x,y) => {
-    //   window.scrollBy(x,y)
-    // }
-
-    // const scrollWindow = (x,y) => {
-    //   window.scrollBy(x,y)
-    // }
+    // page movement
     const scrollUp = () => {
       window.scrollBy({
           top: -200,

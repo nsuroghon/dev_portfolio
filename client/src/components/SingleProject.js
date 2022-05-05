@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 import $ from 'jquery'; 
 import * as Scroll from 'react-scroll';
 import { Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
-
+import Tools from './Tools';
 // components 
 import Footer from '../components/Footer';
 // context
@@ -12,20 +12,20 @@ import ProjectsContext from '../context/ProjectsContext';
 
 const SingleProject = () => {
     const {projectSelected, removeProject} = useContext(ProjectsContext)
-
+    console.log(projectSelected.item.images);
     // page movement
-    const scrollUp = () => {
-      window.scrollBy({
-          top: -200,
-          behavior: 'smooth'
-      });
-    };
-    const scrollDown = () => {
-      window.scrollBy({
-          top: 200,
-          behavior: 'smooth'
-      });
-    };
+    // const scrollUp = () => {
+    //   window.scrollBy({
+    //       top: -200,
+    //       behavior: 'smooth'
+    //   });
+    // };
+    // const scrollDown = () => {
+    //   window.scrollBy({
+    //       top: 200,
+    //       behavior: 'smooth'
+    //   });
+    // };
 
   return (
     <div className="featured">
@@ -43,19 +43,30 @@ const SingleProject = () => {
           <p style={{"color": 'white'}}>Year:</p><p>2020</p>
         </div>
         <div className="featured__images">
-          <img src='http://fakeimg.pl/360x360/111/?text=2'></img>
+
+          {
+            projectSelected.item.images.map( (image) => {
+              return (
+                <img src={image}></img>
+              )
+            })
+          }
+          {/* <img src='/assets/images/sample_1_new.jpg'></img>
+          <img src='/assets/images/Dev_Web_2.jpg'></img> */}
+
         </div>
         {/* <div className="h1">{projectSelected.item.id}</div>
         <div className="h1">{projectSelected.item.title}</div>
         <div className="h1">{projectSelected.item.text}</div> */}
       </div>
+      
+      <Tools />
+      {/* <Tools /> */}
 
-      <div className='tools'>
+      {/* <div className='tools'>
         <div className="tool">
           <a onClick={scrollUp}>
             <span className='bar'></span>
-            {/* <span className='bar'></span>
-            <span className='bar'></span> */}
           </a>
         </div>
         <div className="tool">
@@ -68,13 +79,11 @@ const SingleProject = () => {
         <div className="tool">
           <a onClick={scrollDown}>
             <span className='bar'></span>
-            {/* <span className='bar'></span>
-            <span className='bar'></span> */}
           </a >
         </div>
-      </div>
+      </div> */}
 
-      <Footer />
+      {/* <Footer /> */}
 
     </div>
   )

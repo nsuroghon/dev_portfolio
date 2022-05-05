@@ -1,16 +1,22 @@
 .featured {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     flex: 1;
     max-width: 100%;
 
     background-color: black;
 
     &__content {
-        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+
         padding: 0 2rem;
         max-width: 124rem;
         padding-top: 2rem;
+
+        @media only screen and (max-width: $bp-small) {
+            padding: 0;
+        }
     }
 
     &__metatitle {
@@ -50,10 +56,13 @@
     &__images {
 
         display: flex;
+        flex-flow: wrap;
         justify-content: center;
 
+        align-self: center;
+
         img {
-            width: 95vw;
+            width: 100%;
             height: auto;
             margin: 0 0 0.5% 0;
         }
@@ -72,35 +81,35 @@
 
     }
 
-    .tool {        
+    // .tool {        
 
-        a {
-            display: block;
-            position: relative;
-            width: 3.9rem;
-            height: 3.9rem;
-            margin: 0;
-            padding: 0;
-            list-style: none;
-            transform-style: preserve-3d;
-            perspective: 8rem;
+    //     a {
+    //         display: block;
+    //         position: relative;
+    //         width: 3.9rem;
+    //         height: 3.9rem;
+    //         margin: 0;
+    //         padding: 0;
+    //         list-style: none;
+    //         transform-style: preserve-3d;
+    //         perspective: 8rem;
 
-            padding-top: 0.5rem;
+    //         padding-top: 0.5rem;
             
-            .bar {
-                height: 0.2rem;
-                // width: 100%;
-                background-color: white;
-                display: block;
-                margin: 0.5rem 0.75rem;
-                // border-radius: 10px;
-            }
-        }
+    //         .bar {
+    //             height: 0.2rem;
+    //             // width: 100%;
+    //             background-color: white;
+    //             display: block;
+    //             margin: 0.5rem 0.75rem;
+    //             // border-radius: 10px;
+    //         }
+    //     }
 
-        &:hover {
-            background-color: white;
+    //     &:hover {
+    //         background-color: white;
 
-            .bar {background-color: rgb(29, 29, 29);}
-        }
-    }
+    //         .bar {background-color: rgb(29, 29, 29);}
+    //     }
+    // }
 }

@@ -6,7 +6,7 @@
             "role": "Content Creator",
             "agency": "Amouyal Sisters",
             "year": "2022",
-            "text": "this is project text",
+            "text": "Social media coordinator for the Amouyal Sisters Real Estate Group. Tasked with leading a digital marketing growth initiative. Filmed and edited unique video and photo content using Adobe Photoshop, Adobe Lightroom and DJI tech.",
             "headerImage": "string for header image",
             "thumbnail": "/assets/images/Real_Estate_Main.jpg",
             "images": [
@@ -24,7 +24,8 @@
             "role": "Back-End Developer",
             "agency": "Personal Project",
             "year": "2021",
-            "text": "this is project text",
+            "text": "As a Back-End Developer, I built a ready-to-use database that a business can adapt to store employee information and can be easily displayed on a U/I",
+            "text": "As a Back-End Developer, I developed a ready-to-use command-line-interface that any business can adopt in managing their employee database. The database and command-line-interface was built using Node, InquirerJS library and MySQL.",
             "thumbnail": "/assets/images/Node_Backend_Main.jpg",
             "images": [
                 "/assets/images/node_backend_sample.png"
@@ -37,7 +38,7 @@
             "role": "Full-Stack Developer",
             "agency": "Personal Project",
             "year": "2021",
-            "text": "this is project text",
+            "text": "Full-Stack Developer building a fitness app passion project for personal use. Built with HTML, CSS, Javascript, ExpressJS and MongoDB. The goal was to build a web application that tracks user workouts and display fitness progress on a nice U/I.",
             "thumbnail": "/assets/images/Fitness_App_Main.jpg",
             "images": [
                 "/assets/images/Fitness_1.png",
@@ -79,10 +80,10 @@
         {
             "id": 6,
             "title": "5 O'Clock Somewhere",
-            "role": "Full-Stack Developer",
+            "role": "Front-End Developer",
             "agency": "5 O'Clock",
             "year": "2020",
-            "text": "this is project text",
+            "text": "Full-Stack Developer building a cocktail themed web app. Built using a traditional HTML, Css and Javascript tech stack, and utilizing Materialize CSS framework. Working alongside other developers, the goal was to retrieve data from two third-party API's, and to build a fun, yet simple to interact with U/I.",
             "thumbnail": "/assets/images/5_Oclock_Main.jpg",
             "images": [
                 "/assets/images/5_Oclock_1.png",

@@ -3,6 +3,9 @@
         {
             "id": 1,
             "title": "Amouyal Sisters - Social Media",
+            "role": "Content Creator",
+            "agency": "Amouyal Sisters",
+            "year": "2022",
             "text": "this is project text",
             "headerImage": "string for header image",
             "thumbnail": "/assets/images/Real_Estate_Main.jpg",
@@ -18,6 +21,9 @@
         {
             "id": 2,
             "title": "NodeJS Mock Database",
+            "role": "Back-End Developer",
+            "agency": "Personal Project",
+            "year": "2021",
             "text": "this is project text",
             "thumbnail": "/assets/images/Node_Backend_Main.jpg",
             "images": [
@@ -28,6 +34,9 @@
         {
             "id": 3,
             "title": "Fitness +",
+            "role": "Full-Stack Developer",
+            "agency": "Personal Project",
+            "year": "2021",
             "text": "this is project text",
             "thumbnail": "/assets/images/Fitness_App_Main.jpg",
             "images": [
@@ -39,6 +48,9 @@
         {
             "id": 4,
             "title": "Dev Web",
+            "role": "Full-Stack Developer",
+            "agency": "Dev Web",
+            "year": "2021",
             "text": "this is project text",
             "thumbnail": "/assets/images/sample_1_new.jpg",
             "images": [
@@ -53,6 +65,9 @@
         {
             "id": 5,
             "title": "Budget",
+            "role": "Full-Stack Developer",
+            "agency": "Personal Project",
+            "year": "2021",
             "text": "this is project text",
             "thumbnail": "/assets/images/Budget_Main.jpg",
             "images": [
@@ -64,6 +79,9 @@
         {
             "id": 6,
             "title": "5 O'Clock Somewhere",
+            "role": "Full-Stack Developer",
+            "agency": "5 O'Clock",
+            "year": "2020",
             "text": "this is project text",
             "thumbnail": "/assets/images/5_Oclock_Main.jpg",
             "images": [

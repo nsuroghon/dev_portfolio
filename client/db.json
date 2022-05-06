@@ -47,9 +47,9 @@
         },
         {
             "id": 4,
-            "title": "Dev Web",
+            "title": "Dev-Web",
             "role": "Full-Stack Developer",
-            "agency": "Dev Web",
+            "agency": "Dev-Web",
             "year": "2021",
             "text": "Full-Stack Developer, created a platform for fellow developers to access tech news and media. Built on the MERN stack and multiple libraries, gathers content from various API's.",
             "thumbnail": "/assets/images/sample_1_new.jpg",
@@ -102,14 +102,14 @@
                 "degree": "Bachelor of Arts",
                 "major": "Political Science",
                 "institution": "Western University",
-                "gradYear": 2020
+                "gradYear": "Class of 2020"
             },
             {
                 "id": 2,
-                "degree": "Post-Graduate Certificate ",
+                "degree": "Graduate Certificate",
                 "major": "Full Stack Development",
                 "institution": "University of Toronto",
-                "gradYear": 2021
+                "gradYear": "Class of 2021"
             }
         ]
     },
@@ -118,20 +118,20 @@
         {
             "id": 1,
             "type": "Front End",
-            "technology": [],
-            "concepts": []
+            "technology": ["HTML", "CSS", "Javascript", "Sass/SCSS", "ReactJs", "Query", "HandlebarsJS"],
+            "concepts": ["Design", "Development", "Deployment", "Git", "SEO", "Responsive Design", "Animations", "Modern Frameworks", "Libraries", "Source Control", "Testing"]
         },
         {
             "id": 2,
             "type": "Back End",
-            "technology": [],
+            "technology": ["SQL", "MySQL", "MongoDB", "NodeJS", "ExpressJS"],
             "concepts": []
         },
         {
             "id": 3,
-            "type": "",
-            "technology": ["Adobe Photoshop"],
-            "concepts": ["SEO"]
+            "type": "More",
+            "technology": ["Shopify", "Wordpress", "Adobe Photoshop"],
+            "concepts": []
         }
     ]
 }

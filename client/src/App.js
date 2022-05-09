@@ -9,10 +9,13 @@ import Resume from './pages/Resume';
 
 // context 
 import {ProjectsProvider} from './context/ProjectsContext'
+import {ResumeProvider} from './context/ResumeContext'
+
 
 function App() {
   return (
     <ProjectsProvider>
+    <ResumeProvider>
       <Router>
         <Routes>
           <Route exact path='/' element={<Landing />}/>
@@ -21,7 +24,9 @@ function App() {
           <Route path='/contact' element={<Contact />} />
         </Routes>
       </Router>
+    </ResumeProvider>
     </ProjectsProvider>
+    
   );
 }
 

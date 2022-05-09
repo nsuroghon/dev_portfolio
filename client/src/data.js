@@ -1,116 +1,116 @@
-let resumeData = {
-    "imagebaseurl":"https://nsuroghon.github.io/",
-    "name": "Niv Suroghon",
-    "role": "Developer",
-    "linkedinId":"",
-    "email":" nsuroghon@gmail.com",
-    "socialLinks":[
-        {
-          "name":"linkedin",
-          "url":"https://linkedin.com/in/nivsuroghon",
-          "className":"fa fa-linkedin"
-        },
-        {
-          "name":"github",
-          "url":"https://github.com/nsuroghon",
-          "className":"fa fa-github"
-        },
-      ],
-    "education":[
-      {
-        "UniversityName":"University of Toronto",
-        "specialization":"Graduate Certificate - Full Stack Development",
-        "StartDate":"2020",
-        "EndDate":"2021",
-        "Achievements":"An intensive programme focused on gaining technical programming skills."
-      },
-      {
-        "UniversityName":"Western University",
-        "specialization":"Bachelor of Arts - Political Science",
-        "MonthOfPassing":"Class of",
-        "YearOfPassing":"2020",
-        "Achievements":"Educated in the fields of American/Canadian Politics, Constitutional Law, Public Policy, International Relations and Media."
-      }
-    ],
-    "work":[
-      {
-        "CompanyName":"Server Software",
-        "specialization":"Technology",
-        "MonthOfLeaving":"",
-        "YearOfLeaving":"",
-        "Achievements":"NodeJS, ExpressJS, SQL, MongoDB."
-      },
-      {
-        "CompanyName":"Client-Side Software & Design",
-        "specialization":"Technology",
-        "MonthOfLeaving":"",
-        "YearOfLeaving":"",
-        "Achievements":"JavaScript ES6+, CSS3, HTML5, Bootstrap, Query, HandlebarsJS, React."
-      }
-    ],
-    "skillsDescription":"Your skills here",
-    "skills":[
-      {
-        "skillname":"HTML5"
-      },
-      {
-        "skillname":"CSS"
-      },
-      {
-        "skillname":"Reactjs"
-      }
-    ],
-    "portfolio":[
-      {
-        "name":"DevWeb",
-        "description":"Developer portal for news, podcasts, job listings, and coding practice",
-        "imgurl":"./images/devweb.png",
-        "url":"https://github.com/group04-project03-uoftscs/Dev-Web",
-        "tech": "React, Node, Express, MongoDB + Atlas",
-        "live": "https://dev-web3.herokuapp.com",
-        "code": "https://github.com/group04-project03-uoftscs/Dev-Web",
-        "id": 1
-      },
-      {
-        "name":"5 O'clock Somewhere",
-        "description":"Cocktail application that receives user taste preferences and returns unique recipes for the user to try at home",  
-        "imgurl":"./images/cocktail.png",
-        "tech": "Javascript, HTML, Materialize CSS",
-        "live": "https://nsuroghon.github.io/5-o-Clock-Somewhere/",
-        "code": "https://github.com/nsuroghon/5-o-Clock-Somewhere",
-        "id": 2
+// let resumeData = {
+//     "imagebaseurl":"https://nsuroghon.github.io/",
+//     "name": "Niv Suroghon",
+//     "role": "Developer",
+//     "linkedinId":"",
+//     "email":" nsuroghon@gmail.com",
+//     "socialLinks":[
+//         {
+//           "name":"linkedin",
+//           "url":"https://linkedin.com/in/nivsuroghon",
+//           "className":"fa fa-linkedin"
+//         },
+//         {
+//           "name":"github",
+//           "url":"https://github.com/nsuroghon",
+//           "className":"fa fa-github"
+//         },
+//       ],
+//     "education":[
+//       {
+//         "UniversityName":"University of Toronto",
+//         "specialization":"Graduate Certificate - Full Stack Development",
+//         "StartDate":"2020",
+//         "EndDate":"2021",
+//         "Achievements":"An intensive programme focused on gaining technical programming skills."
+//       },
+//       {
+//         "UniversityName":"Western University",
+//         "specialization":"Bachelor of Arts - Political Science",
+//         "MonthOfPassing":"Class of",
+//         "YearOfPassing":"2020",
+//         "Achievements":"Educated in the fields of American/Canadian Politics, Constitutional Law, Public Policy, International Relations and Media."
+//       }
+//     ],
+//     "work":[
+//       {
+//         "CompanyName":"Server Software",
+//         "specialization":"Technology",
+//         "MonthOfLeaving":"",
+//         "YearOfLeaving":"",
+//         "Achievements":"NodeJS, ExpressJS, SQL, MongoDB."
+//       },
+//       {
+//         "CompanyName":"Client-Side Software & Design",
+//         "specialization":"Technology",
+//         "MonthOfLeaving":"",
+//         "YearOfLeaving":"",
+//         "Achievements":"JavaScript ES6+, CSS3, HTML5, Bootstrap, Query, HandlebarsJS, React."
+//       }
+//     ],
+//     "skillsDescription":"Your skills here",
+//     "skills":[
+//       {
+//         "skillname":"HTML5"
+//       },
+//       {
+//         "skillname":"CSS"
+//       },
+//       {
+//         "skillname":"Reactjs"
+//       }
+//     ],
+//     "portfolio":[
+//       {
+//         "name":"DevWeb",
+//         "description":"Developer portal for news, podcasts, job listings, and coding practice",
+//         "imgurl":"./images/devweb.png",
+//         "url":"https://github.com/group04-project03-uoftscs/Dev-Web",
+//         "tech": "React, Node, Express, MongoDB + Atlas",
+//         "live": "https://dev-web3.herokuapp.com",
+//         "code": "https://github.com/group04-project03-uoftscs/Dev-Web",
+//         "id": 1
+//       },
+//       {
+//         "name":"5 O'clock Somewhere",
+//         "description":"Cocktail application that receives user taste preferences and returns unique recipes for the user to try at home",  
+//         "imgurl":"./images/cocktail.png",
+//         "tech": "Javascript, HTML, Materialize CSS",
+//         "live": "https://nsuroghon.github.io/5-o-Clock-Somewhere/",
+//         "code": "https://github.com/nsuroghon/5-o-Clock-Somewhere",
+//         "id": 2
 
-      },
-      {
-        "name":"Budget Tracker",
-        "description":"A application built for users to track deposits and withdrawals to an account balance, with or without internet access. Well-suited for a user who is travelling.",
-        "imgurl":"./images/budget.png",
-        "tech": "Javascript, IndexedDB, cache API ,Service Workers",
-        "live": "https://fierce-reef-41934.herokuapp.com",
-        "code": "https://github.com/nsuroghon/Budget-Tracker",
-        "id": 3
+//       },
+//       {
+//         "name":"Budget Tracker",
+//         "description":"A application built for users to track deposits and withdrawals to an account balance, with or without internet access. Well-suited for a user who is travelling.",
+//         "imgurl":"./images/budget.png",
+//         "tech": "Javascript, IndexedDB, cache API ,Service Workers",
+//         "live": "https://fierce-reef-41934.herokuapp.com",
+//         "code": "https://github.com/nsuroghon/Budget-Tracker",
+//         "id": 3
 
-      },
-      {
-        "name":"Photo Gallery",
-        "description":"A responsive gallery app with high-resolution images gathered from Pixabay API. Designed to display images geared towards user searches.",
-        "imgurl":"./images/galleryapp.png",
-        "tech": "React, Node, TailwindCSS",
-        "live": "https://nsuroghon.github.io/image-gallery/",
-        "code": "https://github.com/nsuroghon/image-gallery",
-        "id": 4
-      }
-    ],
-    "testimonials":[
-      {
-        "description":"This is a sample testimonial",
-        "name":"name of person"
-      },
-      {
-        "description":"This is a sample testimonial",
-        "name":"name of person"
-      }
-    ]
-  }
+//       },
+//       {
+//         "name":"Photo Gallery",
+//         "description":"A responsive gallery app with high-resolution images gathered from Pixabay API. Designed to display images geared towards user searches.",
+//         "imgurl":"./images/galleryapp.png",
+//         "tech": "React, Node, TailwindCSS",
+//         "live": "https://nsuroghon.github.io/image-gallery/",
+//         "code": "https://github.com/nsuroghon/image-gallery",
+//         "id": 4
+//       }
+//     ],
+//     "testimonials":[
+//       {
+//         "description":"This is a sample testimonial",
+//         "name":"name of person"
+//       },
+//       {
+//         "description":"This is a sample testimonial",
+//         "name":"name of person"
+//       }
+//     ]
+//   }
   
-  export default resumeData
+//   export default resumeData

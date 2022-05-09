@@ -4,6 +4,7 @@ import ProjectsContext from '../context/ProjectsContext';
 const ProjectsGrid = () => {
 
   const {projects, displayProject, projectSelected} = useContext(ProjectsContext);
+  
   return (
     <div className="grid">
 

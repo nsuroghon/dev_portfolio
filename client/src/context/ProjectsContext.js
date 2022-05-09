@@ -7,7 +7,6 @@ export const ProjectsProvider = ({children}) => {
     // PROJECTS
 
     const [projects, setProjects] = useState([]);
-    const [resume, setResume] = useState([]);
     const [projectSelected, setProjectSelected] = useState({
         item: {},
         displayed: false
@@ -15,28 +14,16 @@ export const ProjectsProvider = ({children}) => {
 
     useEffect(() => {
       fetchProjects()
-      fetchResume()
     }, [])
 
     // Fetch Projects from db function
     const fetchProjects = async () => {
         const response = await fetch(`/projects?_sort=id&_order=desc`)
         const data = await response.json()
-        // console.log(data)
 
         setProjects(data)
     }
-
-     // Fetch Projects from db function
-     const fetchResume = async () => {
-        const response = await fetch(`/resume?_sort=id&_order=desc`)
-        const data = await response.json()
-        // console.log(data)
-
-        setResume(data)
-    }
     
-
     // set project to be displayed seperately, when user clicks on project from portfolio
     const displayProject = (item) => {
         setProjectSelected({
@@ -52,18 +39,11 @@ export const ProjectsProvider = ({children}) => {
         })
     }
 
-    // RESUME
-
-
-
-
-
     return <ProjectsContext.Provider 
         value={{
             projects,
-            resume,
-            displayProject,
             projectSelected,
+            displayProject,
             removeProject
         }}
         >

@@ -1,16 +1,31 @@
-import React from 'react'
-import Data from '../data';
+import React, {useContext, useState} from 'react'
+// import Data from '../data';
+
+// context
+import ProjectsContext from '../context/ProjectsContext';
 
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
 
+const Resume = () => {
+  const {resume} = useContext(ProjectsContext);
 
-const Skills = () => {
   return (
-    <div className="skills">
+    <div>
       <Navigation />
 
-      <div className="skills__main-container">
+      <div className="resume">
+        <div className="resume__content">
+          <div className="skills">
+            <h1>Skills</h1>
+            {/* {resume.skills.map((skill) => 
+              console.log(skill)
+            )} */}
+          </div>
+        </div>
+      </div>
+
+      {/* <div className="skills__main-container">
          <div className="skills__content-box">
             <h1 className='skills__header'><span>Education</span></h1>
             <div className="skills__data">
@@ -32,8 +47,8 @@ const Skills = () => {
                 })
               }
             </div>
-         </div>
-        <div className="skills__content-box">
+         </div> */}
+        {/* <div className="skills__content-box">
           <h1 className='skills__header'><span>Skills</span></h1>     
             <div className="skills__data">
               {
@@ -56,15 +71,14 @@ const Skills = () => {
                 })
               }
             </div> 
-         </div>
-        <div className='skills__email-box'>
-          <a className="btn btn--landing btn--dark" href="" target="_blank">Resume</a>
-        </div>
-      </div>
+        </div> */}
 
-      <Footer />
+        {/* DOWNLOAD RESUME BUTTON */}
+        {/* <div className='skills__email-box'>
+          <a className="btn btn--landing btn--dark" href="" target="_blank">Resume</a>
+        </div> */}
     </div>
   )
 }
 
-export default Skills
+export default Resume

@@ -34,7 +34,7 @@ const Navigation = () => {
             <Link to="/projects"><a>Projects</a></Link>
           </div>
           <div className='navigation__menu-item'>
-            <Link to="/skills"><a>Skills / Resume</a></Link>
+            <Link to="/resume"><a>Skills / Resume</a></Link>
           </div>
           <div className='navigation__menu-item'>
             <Link to="/contact"><a>Contact</a></Link>

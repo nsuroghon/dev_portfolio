@@ -7,6 +7,7 @@ export const ProjectsProvider = ({children}) => {
     // PROJECTS
 
     const [projects, setProjects] = useState([]);
+    const [resume, setResume] = useState([]);
     const [projectSelected, setProjectSelected] = useState({
         item: {},
         displayed: false
@@ -14,6 +15,7 @@ export const ProjectsProvider = ({children}) => {
 
     useEffect(() => {
       fetchProjects()
+      fetchResume()
     }, [])
 
     // Fetch Projects from db function
@@ -23,6 +25,15 @@ export const ProjectsProvider = ({children}) => {
         // console.log(data)
 
         setProjects(data)
+    }
+
+     // Fetch Projects from db function
+     const fetchResume = async () => {
+        const response = await fetch(`/resume?_sort=id&_order=desc`)
+        const data = await response.json()
+        // console.log(data)
+
+        setResume(data)
     }
     
 
@@ -50,6 +61,7 @@ export const ProjectsProvider = ({children}) => {
     return <ProjectsContext.Provider 
         value={{
             projects,
+            resume,
             displayProject,
             projectSelected,
             removeProject

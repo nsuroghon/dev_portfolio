@@ -95,7 +95,26 @@
     ],
 
     "resume": {
-        "skills": [],
+        "skills": [
+            {
+                "id": 1,
+                "type": "Front End",
+                "technology": ["HTML", "CSS", "Javascript", "Sass/SCSS", "ReactJs", "Query", "HandlebarsJS"],
+                "concepts": ["Design", "Development", "Deployment", "Git", "SEO", "Responsive Design", "Animations", "Flexbox", "CSS Grid", "Modern Frameworks", "Libraries", "Source Control", "Testing"]
+            },
+            {
+                "id": 2,
+                "type": "Back End",
+                "technology": ["SQL", "MySQL", "MongoDB", "NodeJS", "ExpressJS"],
+                "concepts": []
+            },
+            {
+                "id": 3,
+                "type": "More",
+                "technology": ["Shopify", "Wordpress", "Adobe Photoshop"],
+                "concepts": []
+            }
+        ],
         "education": [
             {
                 "id": 1,
@@ -119,7 +138,7 @@
             "id": 1,
             "type": "Front End",
             "technology": ["HTML", "CSS", "Javascript", "Sass/SCSS", "ReactJs", "Query", "HandlebarsJS"],
-            "concepts": ["Design", "Development", "Deployment", "Git", "SEO", "Responsive Design", "Animations", "Modern Frameworks", "Libraries", "Source Control", "Testing"]
+            "concepts": ["Design", "Development", "Deployment", "Git", "SEO", "Responsive Design", "Animations", "Flexbox", "CSS Grid", "Modern Frameworks", "Libraries", "Source Control", "Testing"]
         },
         {
             "id": 2,

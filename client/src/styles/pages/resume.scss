@@ -1,15 +1,111 @@
 .wrapper {
     width: 100%;
-    height: 100%;
+    height: auto;
+    min-height: 100%;
 }
-
 
 .resume {
     display: flex;
+    flex-flow: column;
+    height: 100%;
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        align-self: center;
+
+        width: 70vw;
+
+    }
 
     &__education {
-        width: 50vw;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex: 1;
+            height: 50%;
+
+            border-bottom: 1px solid black;
+
+            .information {
+                display: flex;
+                flex: 1;
+                flex-direction: column;
+
+                text-align: center;
+            }
+
+        &-item {
+            height: 50%;
+        }
     }
+
+
+
+    &__skills {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex: 1;
+            height: 50%;
+
+            border-bottom: 1px solid black;
+        
+        
+        &-information {
+            display: flex;
+            flex: 1;
+            // width: 100%;
+
+            
+        }
+
+        &-item {
+            width: 33.33%;
+
+            .skill-name {
+                text-align: center;
+
+            }
+
+            .technology {
+                text-align: center;
+            }
+
+            .concepts {
+                text-align: center;
+            }
+
+            ul {
+                max-width: 100%;
+
+                display: flex;
+                flex-flow: wrap;
+                justify-content: center;
+
+                gap: 0.4rem;
+                
+            }
+
+            li {
+                list-style-type: none;
+            }
+        }
+
+    }
+
+    &__resume-header {
+        width: 30%;
+        text-align: center;
+
+        h1 {
+            display: inline-block;
+            padding-bottom: 0.2rem;
+            border-bottom: 3px solid orange;
+        }
+    }
+    
 }
 
 // .skills {

@@ -8,6 +8,9 @@ const navbarLinks = document.getElementsByClassName('navigation__menu')[0];
 const setActive = () => {
   const navbarLinks = document.getElementsByClassName('navigation__menu')[0];
   navbarLinks.classList.toggle('active');
+
+  const toggleBtn = document.getElementsByClassName('navigation__toggle-button')[0];
+  toggleBtn.classList.toggle('active');
 }
 
 const Navigation = () => {

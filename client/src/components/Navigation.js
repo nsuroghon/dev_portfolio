@@ -18,12 +18,18 @@ const Navigation = () => {
             <img className='logo' src='/assets/images/signature_medium.png' width={105} height={50}></img>
         </Link>
       </div>
-
-      <a href="#" onClick={setActive} className='navigation__toggle-button'>
+      <div className="navigation__toggle-button-wrap">
+        <a href="#" onClick={setActive} className='navigation__toggle-button'>
+          <span className='navigation__bar'></span>
+          <span className='navigation__bar'></span>
+          <span className='navigation__bar'></span>
+        </a>
+      </div>
+      {/* <a href="#" onClick={setActive} className='navigation__toggle-button'>
         <span className='navigation__bar'></span>
         <span className='navigation__bar'></span>
         <span className='navigation__bar'></span>
-      </a>
+      </a> */}
 
       <div className="navigation__menu">
         <div className="navigation__menu-list">

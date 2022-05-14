@@ -29,8 +29,8 @@ const Resume = () => {
                 <div className="resume__education-item"
                 key={item.id}
                 >
-                  <h3>{item.institution} • {item.gradYear}</h3>
-                  <h2>{item.degree} - {item.major}</h2>
+                  <h2>{item.institution}</h2>
+                  <p className='degree'>{item.degree} - {item.major} • {item.gradYear}</p>
                 </div>
               )}
             </div>
@@ -49,7 +49,7 @@ const Resume = () => {
                   >
                   <h2 className="skill-name">{item.type}</h2>
                     <div className='technology'>
-                      <h3>Technology</h3>
+                      <span>Technology</span>
                       <ul>
                         {item.technology.map( (technology, index) => 
                           <li key={index}>{technology}</li>
@@ -58,7 +58,7 @@ const Resume = () => {
                     </div>
                     
                     <div className='concepts'>
-                      <h3>Concepts</h3>
+                      <span>Concepts</span>
                       <ul>
                         {item.concepts.map( (concept, index) => 
                           <li key={index}>{concept}</li>
@@ -76,9 +76,12 @@ const Resume = () => {
       </div>
 
         {/* DOWNLOAD RESUME BUTTON */}
-        <div className='skills__email-box'>
-          <a className="btn btn--landing btn--dark" href="" target="_blank">Resume</a>
+        <div className='download-box'>
+          <a className="btn btn--landing btn--dark" href="" target="_blank">Download Resume</a>
+          <a className="btn btn--landing btn--dark" href="" target="_blank">Download Resume</a>
         </div>
+
+        <Footer />
     </div>
   )
 }

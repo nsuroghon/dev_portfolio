@@ -21,8 +21,6 @@
 
     &__education {
             display: flex;
-            flex-direction: column;
-            align-items: center;
             flex: 1;
             height: 50%;
 
@@ -45,8 +43,6 @@
 
     &__skills {
             display: flex;
-            flex-direction: column;
-            align-items: center;
             flex: 1;
             height: 50%;
 
@@ -93,11 +89,15 @@
             }
         }
 
+        &__download-button-box {
+            
+        }
+
     }
 
     &__resume-header {
         width: 30%;
-        text-align: center;
+        
 
         h1 {
             display: inline-block;
@@ -107,35 +107,3 @@
     }
     
 }
-
-// .skills {
-
-//     &__main-container {
-//         max-width: 120rem;
-//         min-height: 50rem;
-//         margin: 8rem auto;
-
-//     }
-
-//     &__content-box {
-//         display: flex;
-//     }
-
-//     &__header {
-//         width: 40%;
-
-//         display: flex;
-//         justify-content: center;
-//     }
-
-//     &__data {
-//         width: max-content;
-//     }
-
-//     &__email-box {
-
-//         text-align: center;
-//         padding-top: 5rem;
-//         padding-bottom: 5rem;
-//     }
-// }

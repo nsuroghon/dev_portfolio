@@ -109,7 +109,6 @@ const Resume = () => {
         {/* DOWNLOAD RESUME BUTTON */}
         <div className='download-box'>
           <a className="btn btn--landing btn--dark" href="" target="_blank">Download Resume</a>
-          <a className="btn btn--landing btn--dark" href="" target="_blank">Download Resume</a>
         </div>
 
         <Footer />

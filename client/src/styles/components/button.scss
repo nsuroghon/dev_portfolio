@@ -7,7 +7,7 @@
     &:link,
     &:visited {
         text-decoration: none;
-        color: black;
+        color: $color-main;
     }
 
     &--landing {
@@ -18,28 +18,29 @@
 
         &:hover {
             outline: none;
-            animation: pulsate 1s infinite;
+            // animation: pulsate 1s infinite;
         }
     }
 
     &--light {
-        border: 1px solid black;
+        border: 1px solid $color-main;
 
         &:hover {
-            border: 1px solid #000;
-            background-color: black;
-            color: white;
+            border: 1px solid $color-main;
+            background-color: $color-main;
+            color: $color-base;
         }
     }
 
     &--dark {
-        border: 1px solid black;
-        background-color: black;
-        color: white !important;
+        border: 1px solid $color-main;
+        background-color: $color-main;
+        color: $color-base !important;
 
         &:hover {
-            background-color: white;
-            color: black !important;
+            background-color: $color-accent;
+            border: 1px solid $color-accent;
+            color: $color-base !important;
 
         }
 

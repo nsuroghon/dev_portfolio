@@ -45,9 +45,9 @@ const SingleProject = () => {
           <p>{projectSelected.item.text}</p>
         </div>
         <div className='featured__more-info'>
-          <p style={{"color": 'white'}}>Role:</p><p>{projectSelected.item.role}</p>
-          <p style={{"color": 'white'}}>Agency:</p><p>{projectSelected.item.agency}</p>
-          <p style={{"color": 'white'}}>Year:</p><p>{projectSelected.item.year}</p>
+          <p className='type'>Role:</p><p>{projectSelected.item.role}</p>
+          <p className='type'>Agency:</p><p>{projectSelected.item.agency}</p>
+          <p className='type'>Year:</p><p>{projectSelected.item.year}</p>
         </div>
         <div className="featured__images">
 

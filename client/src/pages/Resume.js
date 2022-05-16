@@ -19,8 +19,38 @@ const Resume = () => {
       <Navigation />
 
       <div className="resume">
-        <div className="resume__content">
-          <div className="resume__education">
+        {/* <div className="resume__content"> */}
+          <div className="resume__header">
+            <h1>About Me...</h1>
+          </div>
+          <div className='resume__target'>
+            <div className="education">
+              <h2>Education.</h2>
+              <ul>
+                {resumeData.education.map( (item) => 
+                  <li>{item}</li>
+                )}
+              </ul>
+            </div>
+            <div className="technology">
+              <h2>Technology.</h2>
+              <ul>
+              {resumeData.technology.map( (item) => 
+                  <li>{item}</li>
+                )}
+              </ul>
+            </div>
+            <div className="concepts">
+              <h2>Skills.</h2>
+              <ul>
+              {resumeData.skills.map( (item) => 
+                  <li>{item}</li>
+                )}
+              </ul>
+            </div>
+          </div>
+          
+          {/* <div className="resume__education">
             <div className="resume__resume-header">
               <h1>Education</h1>
             </div>
@@ -31,11 +61,12 @@ const Resume = () => {
                 >
                   <h2>{item.institution}</h2>
                   <p className='degree'>{item.degree} - {item.major} • {item.gradYear}</p>
+                  <p className='description'>{item.description}</p>
                 </div>
               )}
             </div>
-          </div>
-          <div className="resume__skills">
+          </div> */}
+          {/* <div className="resume__skills">
 
               <div className="resume__resume-header">
                 <h1>Skills</h1>
@@ -71,8 +102,8 @@ const Resume = () => {
                 </div>
                 )}
               </div>
-          </div>
-        </div>
+          </div> */}
+        {/* </div> */}
       </div>
 
         {/* DOWNLOAD RESUME BUTTON */}

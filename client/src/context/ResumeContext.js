@@ -15,7 +15,7 @@ export const ResumeProvider = ({children}) => {
     
          // Fetch resume from db function
      const fetchResume = async () => {
-        const response = await fetch(`/resume?_sort=id&_order=desc`)
+        const response = await fetch(`/about?_sort=id&_order=desc`)
         const data = await response.json()    
         setResumeData(data)
         setIsLoading(false)

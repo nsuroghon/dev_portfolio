@@ -93,6 +93,11 @@
             "visitUrl": "https://nsuroghon.github.io/5-o-Clock-Somewhere/"
         }
     ],
+    "about": {
+        "education": ["Bachelor of Arts, Western University", "Full Stack Development, University of Toronto"],
+        "technology": ["HTML", "CSS", "Javascript", "Sass/SCSS", "NodeJS", "SQL", "MongoDB", "ExpressJS", "React", "Query"],
+        "skills": ["Design", "Development", "Deployment", "Git", "SEO", "Responsive Design", "Animations", "Modern Frameworks", "Libraries", "Source Control", "Testing", "Shopify", "Wordpress", "Photoshop"]
+    },
 
     "resume": {
         "skills": [
@@ -121,14 +126,16 @@
                 "degree": "Bachelor of Arts",
                 "major": "Political Science",
                 "institution": "Western University",
-                "gradYear": "Class of 2020"
+                "gradYear": "Class of 2020",
+                "description": "Politics, Law, Media, Writing + More"
             },
             {
                 "id": 2,
                 "degree": "Graduate Certificate",
                 "major": "Full Stack Development",
                 "institution": "University of Toronto",
-                "gradYear": "Class of 2021"
+                "gradYear": "Class of 2021",
+                "description": "Intensive program focused on gaining technical programming skills"
             }
         ]
     },

@@ -45,6 +45,18 @@
         }
 
     }
+
+    &--accent {
+        border: 1px solid $color-accent;
+        background-color: $color-accent;
+        color: $color-base !important;
+
+        &:hover {
+            border: 1px solid $color-main;
+            background-color: $color-main;
+            color: $color-base !important;
+        }
+    }
 }
 
 .resume {

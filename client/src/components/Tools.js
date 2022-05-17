@@ -24,11 +24,11 @@ const Tools = () => {
         <div className="tool">
           <a onClick={scrollUp}>
             <span className='bar'></span>
-            {/* <span className='bar'></span>
-            <span className='bar'></span> */}
+            <span className='bar'></span>
+            {/* <span className='bar'></span> */}
           </a>
         </div>
-        <div className="tool">
+        <div className='tool'>
           <a href='#' onClick={removeProject}>
             <span className='bar'></span>
             <span className='bar'></span>
@@ -38,8 +38,8 @@ const Tools = () => {
         <div className="tool">
           <a onClick={scrollDown}>
             <span className='bar'></span>
-            {/* <span className='bar'></span>
-            <span className='bar'></span> */}
+            <span className='bar'></span>
+            {/* <span className='bar'></span> */}
           </a >
         </div>
       </div>

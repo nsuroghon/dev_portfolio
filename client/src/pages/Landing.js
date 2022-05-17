@@ -28,7 +28,7 @@ const Landing = () => {
                   <h1>Canadian-based software developer since 2020. </h1>
                 </div>
                 <div className="email-box">
-                  <Link to='/contact' className='btn btn--landing btn--dark btn--animated'>Email <MdOutlineEdit style={{paddingTop: '0.3rem'}}/> </Link>
+                  <Link to='/contact' className='btn btn--landing btn--accent btn--animated'>Email <MdOutlineEdit style={{paddingTop: '0.3rem'}}/> </Link>
                 </div>
           
                 <Socials className='landing__socials-box' />

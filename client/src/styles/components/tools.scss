@@ -1,27 +1,33 @@
-.tool {        
+.tools {
+    display: block;
+    position: fixed;
+    width: 4rem;
+    height: 12rem;
+    right: 0;
+    top: 50%;
+    margin: -60px 0 0 0;
+    z-index: 55;
 
-    a {
-        display: block;
-        position: relative;
-        width: 3.9rem;
-        height: 3.9rem;
-        margin: 0;
-        padding: 0;
-        list-style: none;
-        transform-style: preserve-3d;
-        perspective: 8rem;
+    background-color: $color-main;
 
-        padding-top: 0.5rem;
-        
-        .bar {
-            height: 0.2rem;
-            // width: 100%;
-            background-color: white;
-            display: block;
-            margin: 0.5rem 0.75rem;
-            // border-radius: 10px;
+}
+
+.tool {    
+    display: block;
+    width: 40px;
+    height: 40px;
+
+        a {
+
         }
-    }
+
+        .bar {
+            height: 0.3rem;
+            width: 3rem;
+            background-color: $color-main;
+            border-radius: 10px;
+        }
+
 
     &:hover {
         background-color: white;

@@ -22,6 +22,7 @@ const Projects = () => {
   return projectSelected.displayed === false ? 
     <div className='projects'>
       <Navigation />
+      <h1>Some Projects.</h1>
       <ProjectsGrid />
       <Footer />
     </div>

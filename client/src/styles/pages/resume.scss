@@ -6,8 +6,13 @@
 
 .resume {
     display: flex;
+    flex-direction: column;
     height: 100%;
     padding-top: 6rem;
+
+    @media only screen and (max-width: $bp-large) {
+        padding-top: 0;
+    }
 
     h1 {
         line-height: 5rem;
@@ -31,10 +36,23 @@
         font-weight: 500;
     }
 
+    &__main {
+        display: flex;
+
+        @media only screen and (max-width: $bp-large) {
+            flex-direction: column;
+        }
+    }
+
     &__header {
         display: flex;
         flex: 0.5;
         justify-content: center;
+
+        @media only screen and (max-width: $bp-large) {
+            padding-top: 2rem;
+            padding-bottom: 4rem;
+        }
     }
 
     &__target {
@@ -42,6 +60,19 @@
         flex: 1;
         justify-content: flex-start;
         gap: 6rem;
+
+        @media only screen and (max-width: $bp-large) {
+            justify-content: center;
+        }
+
+        @media only screen and (max-width: $bp-medium) {
+            padding-top: 2rem;
+            padding-bottom: 4rem;
+
+            text-align: center;
+            flex-direction: column;
+        }
+
     }
 
     &__content {
@@ -135,11 +166,6 @@
                 list-style-type: none;
             }
         }
-
-        &__download-button-box {
-            
-        }
-
     }
 
     &__resume-header {
@@ -151,6 +177,11 @@
             padding-bottom: 0.2rem;
             border-bottom: 3px solid orange;
         }
+    }
+
+    .download-box {
+        padding-top: 4rem;
+        text-align: center;
     }
     
 }

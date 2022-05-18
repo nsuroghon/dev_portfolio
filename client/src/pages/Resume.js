@@ -1,5 +1,5 @@
 import React, {useContext, useState} from 'react'
-// import Data from '../data';
+import resumePdf from '../assets/documents/Copy of Resume_ Niv Suroghon.pdf';
 
 // context
 import ResumeContext from '../context/ResumeContext';
@@ -52,7 +52,7 @@ const Resume = () => {
         </div>
       
         <div className='download-box'>
-          <a className="btn btn--landing btn--accent" href="" target="_blank">Download Resume</a>
+          <a className="btn btn--landing btn--accent" href={resumePdf} target="_blank">Download Resume</a>
         </div>
 
         <Footer />

@@ -67,7 +67,6 @@ const SingleProject = () => {
         <div className="h1">{projectSelected.item.text}</div> */}
       </div>
       
-      <Tools />
       {/* <Tools /> */}
 
       {/* <div className='tools'>

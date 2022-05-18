@@ -4,6 +4,7 @@
   display: flex;
   justify-content: center;
 
+
   &__icon-box {
     display: flex;
     align-items: center;
@@ -21,10 +22,40 @@
     display: flex;
     align-items: center;
     justify-content: center;
-  }
 
-  &__icon:hover {
-    color: $color-base;
-    background: $color-main;
+    text-decoration: none;
+    text-decoration-color: none;
+
+    &:visited {
+      color: $color-main;
+    }
+
+    &:link {
+      color: $color-main;
+    }
+
+    &:active {
+      color: $color-main;
+    }
+
+    // a {
+    //   color: inherit;
+    // }
+
+    // &:visited {
+    //   color: $color-main;
+    //   text-decoration: none;
+    // }
+
+    // &:active {
+    //   color: $color-main;
+    //   text-decoration: none;
+
+    // }
+
+    &:hover {
+      color: $color-base;
+      background: $color-main;
+    }
   }
 }

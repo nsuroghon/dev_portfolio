@@ -8,17 +8,17 @@ const Socials = () => {
   return (
     <div className="socials">
         <div className="socials__icon-box">
-            <a className='socials__icon'>
+            <a href='https://github.com/nsuroghon' target="_blank" className='socials__icon'>
                 <FiGithub size={14} />
             </a>
         </div>
         <div className="socials__icon-box">
-            <a className='socials__icon'>
+            <a href='https://linkedin.com/in/nivsuroghon' target="_blank" className='socials__icon'>
                 <FaLinkedinIn size={15} />
             </a>
         </div>
         <div className="socials__icon-box">
-            <a className='socials__icon'>
+            <a href='mailto:nsuroghon@gmail.com' className='socials__icon'>
                 <MdOutlineEmail size={16} />
             </a>
         </div>

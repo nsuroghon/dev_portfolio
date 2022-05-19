@@ -1,6 +1,10 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+
+// icons
 import { MdOutlineEdit } from 'react-icons/md';
+
+// components
 import Socials from '../components/Socials';
 
 const Landing = () => {

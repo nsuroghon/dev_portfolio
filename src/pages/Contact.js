@@ -1,6 +1,9 @@
 import React from 'react'
 
+// icons
 import { MdOutlineMarkEmailRead } from 'react-icons/md'
+
+// components
 import Navigation from '../components/Navigation'
 import Footer from '../components/Footer'
 

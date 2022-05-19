@@ -1,9 +1,10 @@
-import React, {useContext, useState} from 'react'
+import React, {useContext} from 'react'
 import resumePdf from '../assets/documents/Copy of Resume_ Niv Suroghon.pdf';
 
 // context
 import ResumeContext from '../context/ResumeContext';
 
+// components
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
 

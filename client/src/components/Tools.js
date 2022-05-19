@@ -1,6 +1,9 @@
 import React, { useContext, useEffect, useState } from 'react';
 import ProjectsContext from '../context/ProjectsContext';
 
+// icons
+import { MdKeyboardArrowDown, MdKeyboardArrowUp, MdMenu, MdApps } from "react-icons/md";
+
 
 const Tools = () => {
     const {projectSelected, removeProject} = useContext(ProjectsContext)
@@ -22,23 +25,26 @@ const Tools = () => {
   return (
     <div className='tools'>
         <div className="tool">
-          <a onClick={scrollUp}>
-            <span className='bar'></span>
-            <span className='bar'></span>
+          <a onClick={scrollUp} className="tool__icon" id='top'>
+            <MdKeyboardArrowUp size={30} />
+            {/* <span className='bar'></span>
+            <span className='bar'></span> */}
             {/* <span className='bar'></span> */}
           </a>
         </div>
         <div className='tool'>
-          <a href='#' onClick={removeProject}>
+          <a href='#' onClick={removeProject} className="tool__icon" id='menu'>
+            <MdMenu size={30} />
+            {/* <span className='bar'></span>
             <span className='bar'></span>
-            <span className='bar'></span>
-            <span className='bar'></span>
+            <span className='bar'></span> */}
           </a>
         </div>
         <div className="tool">
-          <a onClick={scrollDown}>
-            <span className='bar'></span>
-            <span className='bar'></span>
+          <a onClick={scrollDown} className="tool__icon" id='bot'>
+            <MdKeyboardArrowDown size={30} />
+            {/* <span className='bar'></span>
+            <span className='bar'></span> */}
             {/* <span className='bar'></span> */}
           </a >
         </div>

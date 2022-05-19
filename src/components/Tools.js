@@ -27,25 +27,16 @@ const Tools = () => {
         <div className="tool">
           <a onClick={scrollUp} className="tool__icon" id='top'>
             <MdKeyboardArrowUp size={30} />
-            {/* <span className='bar'></span>
-            <span className='bar'></span> */}
-            {/* <span className='bar'></span> */}
           </a>
         </div>
         <div className='tool'>
           <a href='#' onClick={removeProject} className="tool__icon" id='menu'>
             <MdMenu size={30} />
-            {/* <span className='bar'></span>
-            <span className='bar'></span>
-            <span className='bar'></span> */}
           </a>
         </div>
         <div className="tool">
           <a onClick={scrollDown} className="tool__icon" id='bot'>
             <MdKeyboardArrowDown size={30} />
-            {/* <span className='bar'></span>
-            <span className='bar'></span> */}
-            {/* <span className='bar'></span> */}
           </a >
         </div>
       </div>

@@ -9,7 +9,7 @@ const ProjectsGrid = () => {
     <div className="grid">
 
         {projects.map((project) => 
-          <div>
+          <div className='grid__item--container'>
             <img className='grid__item'
               src={project.thumbnail}
               key={project.id} 
@@ -18,6 +18,9 @@ const ProjectsGrid = () => {
               alt={project.title}
             >
             </img>
+            {/* <div className="overlay">
+              <h2>{project.title}</h2>
+            </div> */}
           </div>
 
         )}

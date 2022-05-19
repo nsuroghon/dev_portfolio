@@ -52,7 +52,7 @@
             "agency": "Dev-Web",
             "year": "2021",
             "text": "Full-Stack Developer, created a platform for fellow developers to access tech news and media. Built on the MERN stack and multiple libraries, gathers content from various API's.",
-            "thumbnail": "/assets/images/sample_1_new.jpg",
+            "thumbnail": "/assets/images/Dev-Web_Main.jpg",
             "images": [
                 "/assets/images/Dev_Web.png",
                 "/assets/images/Dev_Web_2.png",

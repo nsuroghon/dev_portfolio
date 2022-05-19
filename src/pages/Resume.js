@@ -10,10 +10,6 @@ import Footer from '../components/Footer';
 const Resume = () => {
   const {resumeData, isLoading} = useContext(ResumeContext);
 
-  // if (!isLoading && (!resumeData || resumeData.length === 0)) {
-  //   return <span>Loading...</span>
-  // }
-
   return isLoading ? <h3>Loading...</h3> : (
     <div className='wrapper'>
       <Navigation />
@@ -57,12 +53,6 @@ const Resume = () => {
 
         <Footer />
       </div>
-
-        {/* <div className='download-box'>
-          <a className="btn btn--landing btn--accent" href="" target="_blank">Download Resume</a>
-        </div> */}
-
-        {/* <Footer /> */}
     </div>
   )
 }

@@ -22,17 +22,6 @@ const Socials = () => {
                 <MdOutlineEmail size={16} />
             </a>
         </div>
-            {/* <ul className='socials__list'>
-                <li className='socials__item'>
-                    <a className='btn socials__btn--icon'> <FiGithub /> </a>
-                </li>
-                <li className='socials__item'>
-                    <a className='btn socials__btn--icon'> <FaLinkedinIn /> </a>
-                </li>
-                <li className='socials__item'>
-                    <a className='btn socials__btn--icon'> <MdOutlineEmail /> </a>
-                </li>
-            </ul>    */}
     </div>
   )
 }

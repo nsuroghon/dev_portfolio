@@ -11,13 +11,13 @@ const Tools = () => {
     // page movement
     const scrollUp = () => {
         window.scrollBy({
-            top: -200,
+            top: -400,
             behavior: 'smooth'
         });
     };
       const scrollDown = () => {
         window.scrollBy({
-            top: 200,
+            top: 400,
             behavior: 'smooth'
         });
     };

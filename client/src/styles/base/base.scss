@@ -17,6 +17,7 @@ $bp-small: 37.5em;    // 600px
 
 html {
     font-size: 62.5%;
+    -webkit-tap-highlight-color: transparent;
     // 1rem = 10px, 10px/16px = 62.5%
 
     // @media only screen and (max-width: $bp-large) {

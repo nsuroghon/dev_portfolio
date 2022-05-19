@@ -54,7 +54,7 @@ const SingleProject = () => {
           {
             projectSelected.item.images.map( (image) => {
               return (
-                <img src={image}></img>
+                <img src={image} className="noSelect"></img>
               )
             })
           }

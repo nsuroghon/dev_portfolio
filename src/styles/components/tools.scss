@@ -8,8 +8,6 @@
     margin: -60px 0 0 0;
     z-index: 55;
 
-    // background-color: $color-main;
-
     // @media only screen and (max-width: $bp-medium) {
     //     display: none;
     // }
@@ -68,11 +66,9 @@
 
 
     &:hover {
-        // color: white;
+        
         cursor: pointer;
         transform: scale(1.25);
         
-        // background-color: white;
-        // .bar {background-color: rgb(29, 29, 29);}
     }
 }

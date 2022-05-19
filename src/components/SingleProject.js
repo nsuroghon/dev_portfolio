@@ -1,12 +1,9 @@
-import React, { useContext, useEffect, useState } from 'react';
-import { gsap } from "gsap";
-import {Link} from 'react-router-dom';
-import $ from 'jquery'; 
-import * as Scroll from 'react-scroll';
-import { Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
-import Tools from './Tools';
+import React, { useContext } from 'react';
+
 // components 
+import Tools from './Tools';
 import Footer from '../components/Footer';
+
 // context
 import ProjectsContext from '../context/ProjectsContext';
 

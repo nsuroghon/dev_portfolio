@@ -17,7 +17,7 @@ const setActive = () => {
 
 const Navigation = () => {
   return (
-    <div className='navigation'>
+    <nav className='navigation'>
       <div className="navigation__logo-wrap">
 
         <Link to="/">
@@ -34,27 +34,27 @@ const Navigation = () => {
       </div>
 
       <div className="navigation__menu">
-        <div className="navigation__menu-list">
-          <div className='navigation__menu-item'>
+        <ul className="navigation__menu-list">
+          <li className='navigation__menu-item'>
             <Link to="/"><a>Main</a></Link>
-          </div>
-          <div className='navigation__menu-item'>
+          </li>
+          <li className='navigation__menu-item'>
             <Link to="/projects"><a>Projects</a></Link>
-          </div>
-          <div className='navigation__menu-item'>
+          </li>
+          <li className='navigation__menu-item'>
             <Link to="/resume"><a>Skills / Resume</a></Link>
-          </div>
-          <div className='navigation__menu-item'>
+          </li>
+          <li className='navigation__menu-item'>
             <Link to="/contact"><a>Contact</a></Link>
-          </div>
-        </div>
+          </li>
+        </ul>
 
         <div className="navigation__menu-socials">
           <Socials />
         </div>
 
       </div>
-    </div>
+    </nav>
   )
 }
 

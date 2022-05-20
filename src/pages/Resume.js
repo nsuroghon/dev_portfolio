@@ -15,7 +15,7 @@ const Resume = () => {
     <div className='wrapper'>
       <Navigation />
 
-      <div className="resume">
+      <main className="resume">
         <div className='resume__main'>
           <div className="resume__header">
               <h1>About Me...</h1>
@@ -51,9 +51,9 @@ const Resume = () => {
         <div className='download-box'>
           <a className="btn btn--landing btn--accent" href={resumePdf} target="_blank">Download Resume</a>
         </div>
-
-        <Footer />
-      </div>
+      </main>
+      
+      <Footer />
     </div>
   )
 }

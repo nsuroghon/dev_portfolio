@@ -10,8 +10,10 @@ import Footer from '../components/Footer'
 const Contact = () => {
   return (
     <div className="contact">
+      
       <Navigation />
-      <div className='contact__content'>
+
+      <main className='contact__content'>
         <div className='contact__icon-box'>
           <MdOutlineMarkEmailRead size={200}/>
           <h1>Lets Work Together.</h1>
@@ -22,7 +24,8 @@ const Contact = () => {
               <a href='mailto:nsuroghon@gmail.com'>nsuroghon@gmail.com</a>
             </span>
        </div>
-      </div>
+      </main>
+
       <Footer />
     </div>
   )

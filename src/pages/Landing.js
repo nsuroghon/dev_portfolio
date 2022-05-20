@@ -10,9 +10,10 @@ import Socials from '../components/Socials';
 const Landing = () => {
   return (
 
-    <section className="landing">
-        <div className="container">
-            <div className="content">
+    <main className="landing">
+      
+            <section className="content">
+
                 <div className="logo-box">
                   <img className='logo' alt='logo' src='/assets/images/signature_large.png'></img>
                 </div>
@@ -38,9 +39,8 @@ const Landing = () => {
                 <Socials className='landing__socials-box' />
               
                 
-            </div>
-        </div>
-    </section>
+            </section>
+    </main>
   )
 }
 

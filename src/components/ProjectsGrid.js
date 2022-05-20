@@ -9,10 +9,10 @@ const ProjectsGrid = () => {
     <div className="grid">
 
         {projects.map((project) => 
-          <div className='grid__item--container'>
+          <div className='grid__item--container'
+          key={project.id} >
             <img className='grid__item'
               src={project.thumbnail}
-              key={project.id} 
               onClick={() => displayProject(project)}
               alt={project.title}
             >

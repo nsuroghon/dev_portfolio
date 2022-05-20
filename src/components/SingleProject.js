@@ -2,7 +2,6 @@ import React, { useContext } from 'react';
 
 // components 
 import Tools from './Tools';
-import Footer from '../components/Footer';
 
 // context
 import ProjectsContext from '../context/ProjectsContext';

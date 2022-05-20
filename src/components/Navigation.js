@@ -4,9 +4,6 @@ import {Link} from 'react-router-dom';
 // components
 import Socials from '../components/Socials';
 
-// const toggleButton = document.getElementsByClassName('toggle-button')[0];
-// const navbarLinks = document.getElementsByClassName('navigation__menu')[0];
-
 const setActive = () => {
   const navbarLinks = document.getElementsByClassName('navigation__menu')[0];
   navbarLinks.classList.toggle('active');

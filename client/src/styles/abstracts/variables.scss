@@ -1,0 +1,20 @@
+// colors
+$color-base: white;
+$color-main: #333333;
+// $color-accent: #ffb2b2;
+$color-accent: rgb(69,140,249);
+
+
+// removing highlights from photos and such...
+.noSelect {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.noSelect:focus {
+    outline: none !important;
+}

@@ -1,0 +1,163 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "title": "Amouyal Sisters - Social Media",
+            "role": "Content Creator",
+            "agency": "Amouyal Sisters",
+            "year": "2022",
+            "text": "Social media coordinator for the Amouyal Sisters Real Estate Group. Tasked with leading a digital marketing growth initiative. Filmed and edited unique video and photo content using Adobe Photoshop, Adobe Lightroom and DJI tech.",
+            "headerImage": "string for header image",
+            "thumbnail": "/assets/images/Real_Estate_Main.jpg",
+            "images": [
+                "/assets/images/Sold_226_Lady_Valentina_Ave.jpg",
+                "/assets/images/Sold_Bronte_Ave.jpg",
+                "/assets/images/laurendale_recordsale.jpg",
+                "/assets/images/balsamwood_open_house_2.jpg",
+                "/assets/images/226_Lady_Valentina.jpg",
+                "/assets/images/14_bobolink_dr.jpg"
+            ]
+        },
+        {
+            "id": 2,
+            "title": "NodeJS Mock Database",
+            "role": "Back-End Developer",
+            "agency": "Personal Project",
+            "year": "2021",
+            "text": "As a Back-End Developer, I developed a ready-to-use command-line-interface that any business can adopt in managing their employee database. The database and command-line-interface was built using Node, InquirerJS library and MySQL.",
+            "thumbnail": "/assets/images/Node_Backend_Main.jpg",
+            "images": [
+                "/assets/images/node_backend_sample.png"
+            ],
+            "githubUrl": "https://github.com/nsuroghon/Employee-Database"
+        },
+        {
+            "id": 3,
+            "title": "Fitness +",
+            "role": "Full-Stack Developer",
+            "agency": "Personal Project",
+            "year": "2021",
+            "text": "Full-Stack Developer building a fitness app passion project for personal use. Built with HTML, CSS, Javascript, ExpressJS and MongoDB. The goal was to build a web application that tracks user workouts and display fitness progress on a nice U/I.",
+            "thumbnail": "/assets/images/Fitness_App_Main.jpg",
+            "images": [
+                "/assets/images/Fitness_1.png",
+                "/assets/images/Fitness_2.png"
+            ],
+            "githubUrl": "https://github.com/nsuroghon/Workout-Tracker"
+        },
+        {
+            "id": 4,
+            "title": "Dev-Web",
+            "role": "Full-Stack Developer",
+            "agency": "Dev-Web",
+            "year": "2021",
+            "text": "Full-Stack Developer, created a platform for fellow developers to access tech news and media. Built on the MERN stack and multiple libraries, gathers content from various API's.",
+            "thumbnail": "/assets/images/Dev-Web_Main.jpg",
+            "images": [
+                "/assets/images/Dev_Web.png",
+                "/assets/images/Dev_Web_2.jpg",
+                "/assets/images/Dev_Web_3.png",
+                "/assets/images/Dev_Web_4.png"
+            ],
+            "githubUrl": "https://github.com/nsuroghon/Dev-Web",
+            "visitUrl": "https://dev-web3.herokuapp.com"
+        },
+        {
+            "id": 5,
+            "title": "Budget",
+            "role": "Full-Stack Developer",
+            "agency": "Personal Project",
+            "year": "2021",
+            "text": "Developed a web application that tracks deposits and withdrawals to a user's budget. Passion project with the purpose of implementing IndexedDB and Service Workers technologies. Utilized these technologies to create an application that can still track transactions while a user is away from internet connection, and populate the database once the user gets online connection.",
+            "thumbnail": "/assets/images/Budget_Main.jpg",
+            "images": [
+                "/assets/images/Budget.png"
+            ],
+            "githubUrl": "https://github.com/nsuroghon/Budget-Tracker",
+            "visitUrl": "https://fierce-reef-41934.herokuapp.com"
+        },
+        {
+            "id": 6,
+            "title": "5 O'Clock Somewhere",
+            "role": "Front-End Developer",
+            "agency": "5 O'Clock",
+            "year": "2020",
+            "text": "Full-Stack Developer building a cocktail themed web app. Built using a traditional HTML, Css and Javascript tech stack, and utilizing Materialize CSS framework. Working alongside other developers, the goal was to retrieve data from two third-party API's, and to build a fun, yet simple to interact with U/I.",
+            "thumbnail": "/assets/images/5_Oclock_Main.jpg",
+            "images": [
+                "/assets/images/5_Oclock_1.png",
+                "/assets/images/5_Oclock_2.png",
+                "/assets/images/5_Oclock_3.png"
+            ],
+            "githubUrl": "https://github.com/nsuroghon/5-o-Clock-Somewhere",
+            "visitUrl": "https://nsuroghon.github.io/5-o-Clock-Somewhere/"
+        }
+    ],
+    "about": {
+        "education": ["Bachelor of Arts, Western University", "Full Stack Development, University of Toronto"],
+        "technology": ["HTML", "CSS", "Javascript", "Sass/SCSS", "NodeJS", "SQL", "MongoDB", "ExpressJS", "React", "Query"],
+        "skills": ["Design", "Development", "Deployment", "Git", "SEO", "Responsive Design", "Animations", "Modern Frameworks", "Libraries", "Source Control", "Testing", "Shopify", "Wordpress", "Photoshop"]
+    },
+
+    "resume": {
+        "skills": [
+            {
+                "id": 1,
+                "type": "Front End",
+                "technology": ["HTML", "CSS", "Javascript", "Sass/SCSS", "ReactJs", "Query", "HandlebarsJS"],
+                "concepts": ["Design", "Development", "Deployment", "Git", "SEO", "Responsive Design", "Animations", "Flexbox", "CSS Grid", "Modern Frameworks", "Libraries", "Source Control", "Testing"]
+            },
+            {
+                "id": 2,
+                "type": "Back End",
+                "technology": ["SQL", "MySQL", "MongoDB", "NodeJS", "ExpressJS"],
+                "concepts": []
+            },
+            {
+                "id": 3,
+                "type": "More",
+                "technology": ["Shopify", "Wordpress", "Adobe Photoshop"],
+                "concepts": []
+            }
+        ],
+        "education": [
+            {
+                "id": 1,
+                "degree": "Bachelor of Arts",
+                "major": "Political Science",
+                "institution": "Western University",
+                "gradYear": "Class of 2020",
+                "description": "Politics, Law, Media, Writing + More"
+            },
+            {
+                "id": 2,
+                "degree": "Graduate Certificate",
+                "major": "Full Stack Development",
+                "institution": "University of Toronto",
+                "gradYear": "Class of 2021",
+                "description": "Intensive program focused on gaining technical programming skills"
+            }
+        ]
+    },
+
+    "skills" : [
+        {
+            "id": 1,
+            "type": "Front End",
+            "technology": ["HTML", "CSS", "Javascript", "Sass/SCSS", "ReactJs", "Query", "HandlebarsJS"],
+            "concepts": ["Design", "Development", "Deployment", "Git", "SEO", "Responsive Design", "Animations", "Flexbox", "CSS Grid", "Modern Frameworks", "Libraries", "Source Control", "Testing"]
+        },
+        {
+            "id": 2,
+            "type": "Back End",
+            "technology": ["SQL", "MySQL", "MongoDB", "NodeJS", "ExpressJS"],
+            "concepts": []
+        },
+        {
+            "id": 3,
+            "type": "More",
+            "technology": ["Shopify", "Wordpress", "Adobe Photoshop"],
+            "concepts": []
+        }
+    ]
+}

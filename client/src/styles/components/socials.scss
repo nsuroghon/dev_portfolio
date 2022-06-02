@@ -1,0 +1,61 @@
+.socials {
+  align-self: stretch;
+
+  display: flex;
+  justify-content: center;
+
+
+  &__icon-box {
+    display: flex;
+    align-items: center;
+
+    cursor: pointer;
+    height: 100%;
+  }
+
+  &__icon {
+    height: 3.3rem;
+    line-height: 3.3rem;
+    width: 3.3rem;
+    border-radius: 1.7rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+    text-decoration-color: none;
+
+    &:visited {
+      color: $color-main;
+    }
+
+    &:link {
+      color: $color-main;
+    }
+
+    &:active {
+      color: $color-main;
+    }
+
+    // a {
+    //   color: inherit;
+    // }
+
+    // &:visited {
+    //   color: $color-main;
+    //   text-decoration: none;
+    // }
+
+    // &:active {
+    //   color: $color-main;
+    //   text-decoration: none;
+
+    // }
+
+    &:hover {
+      color: $color-base;
+      background: $color-main;
+    }
+  }
+}

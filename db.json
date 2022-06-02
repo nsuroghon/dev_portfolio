@@ -93,71 +93,21 @@
             "visitUrl": "https://nsuroghon.github.io/5-o-Clock-Somewhere/"
         }
     ],
-    "about": {
-        "education": ["Bachelor of Arts, Western University", "Full Stack Development, University of Toronto"],
-        "technology": ["HTML", "CSS", "Javascript", "Sass/SCSS", "NodeJS", "SQL", "MongoDB", "ExpressJS", "React", "Query"],
-        "skills": ["Design", "Development", "Deployment", "Git", "SEO", "Responsive Design", "Animations", "Modern Frameworks", "Libraries", "Source Control", "Testing", "Shopify", "Wordpress", "Photoshop"]
-    },
-
-    "resume": {
-        "skills": [
-            {
-                "id": 1,
-                "type": "Front End",
-                "technology": ["HTML", "CSS", "Javascript", "Sass/SCSS", "ReactJs", "Query", "HandlebarsJS"],
-                "concepts": ["Design", "Development", "Deployment", "Git", "SEO", "Responsive Design", "Animations", "Flexbox", "CSS Grid", "Modern Frameworks", "Libraries", "Source Control", "Testing"]
-            },
-            {
-                "id": 2,
-                "type": "Back End",
-                "technology": ["SQL", "MySQL", "MongoDB", "NodeJS", "ExpressJS"],
-                "concepts": []
-            },
-            {
-                "id": 3,
-                "type": "More",
-                "technology": ["Shopify", "Wordpress", "Adobe Photoshop"],
-                "concepts": []
-            }
-        ],
-        "education": [
-            {
-                "id": 1,
-                "degree": "Bachelor of Arts",
-                "major": "Political Science",
-                "institution": "Western University",
-                "gradYear": "Class of 2020",
-                "description": "Politics, Law, Media, Writing + More"
-            },
-            {
-                "id": 2,
-                "degree": "Graduate Certificate",
-                "major": "Full Stack Development",
-                "institution": "University of Toronto",
-                "gradYear": "Class of 2021",
-                "description": "Intensive program focused on gaining technical programming skills"
-            }
-        ]
-    },
-
-    "skills" : [
+    "about": [
         {
             "id": 1,
-            "type": "Front End",
-            "technology": ["HTML", "CSS", "Javascript", "Sass/SCSS", "ReactJs", "Query", "HandlebarsJS"],
-            "concepts": ["Design", "Development", "Deployment", "Git", "SEO", "Responsive Design", "Animations", "Flexbox", "CSS Grid", "Modern Frameworks", "Libraries", "Source Control", "Testing"]
+            "type": "education",
+            "content": ["Bachelor of Arts, Western University", "Full Stack Development, University of Toronto"]
         },
         {
             "id": 2,
-            "type": "Back End",
-            "technology": ["SQL", "MySQL", "MongoDB", "NodeJS", "ExpressJS"],
-            "concepts": []
+            "type": "technology",
+            "content": ["HTML", "CSS", "Javascript", "Sass/SCSS", "NodeJS", "SQL", "MongoDB", "ExpressJS", "React", "Query"]
         },
         {
             "id": 3,
-            "type": "More",
-            "technology": ["Shopify", "Wordpress", "Adobe Photoshop"],
-            "concepts": []
+            "type": "skills",
+            "content": ["Design", "Development", "Deployment", "Git", "SEO", "Responsive Design", "Animations", "Modern Frameworks", "Libraries", "Source Control", "Testing", "Shopify", "Wordpress", "Photoshop"]
         }
     ]
 }

@@ -1,0 +1,70 @@
+.btn {
+    border-radius: 10rem;
+    text-transform: uppercase;
+    line-height: 5rem;
+    cursor: pointer;
+
+    &:link,
+    &:visited {
+        text-decoration: none;
+        color: $color-main;
+    }
+
+    &--landing {
+        padding: 0.75rem 4rem;
+        text-transform: uppercase;
+        line-height: 5rem;
+
+
+        &:hover {
+            outline: none;
+            // animation: pulsate 1s infinite;
+        }
+    }
+
+    &--light {
+        border: 1px solid $color-main;
+
+        &:hover {
+            border: 1px solid $color-main;
+            background-color: $color-main;
+            color: $color-base;
+        }
+    }
+
+    &--dark {
+        border: 1px solid $color-main;
+        background-color: $color-main;
+        color: $color-base !important;
+
+        &:hover {
+            background-color: $color-accent;
+            border: 1px solid $color-accent;
+            color: $color-base !important;
+
+        }
+
+    }
+
+    &--accent {
+        border: 1px solid $color-accent;
+        background-color: $color-accent;
+        color: $color-base !important;
+
+        &:hover {
+            border: 1px solid $color-main;
+            background-color: $color-main;
+            color: $color-base !important;
+        }
+    }
+}
+
+.resume {
+
+    .download-btn {
+        border-radius: 4rem;
+        
+        font-size: 1.2rem;
+    }
+
+}

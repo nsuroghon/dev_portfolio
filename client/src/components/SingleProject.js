@@ -9,7 +9,6 @@ import ProjectsContext from '../context/ProjectsContext';
 const SingleProject = () => {
 
     const {projectSelected} = useContext(ProjectsContext)
-    console.log(projectSelected);
 
   return (
     <div className="featured">
@@ -32,9 +31,9 @@ const SingleProject = () => {
         <div className="featured__images">
 
           {
-            projectSelected.item.images.map( (image) => {
+            projectSelected.item.images.map( (image, index) => {
               return (
-                <img src={image} className="noSelect"></img>
+                <img src={image} key={index} className="noSelect"></img>
               )
             })
           }

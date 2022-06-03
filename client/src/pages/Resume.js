@@ -10,7 +10,6 @@ import Footer from '../components/Footer';
 
 const Resume = () => {
   const {resumeData, isLoading} = useContext(ResumeContext);
-  console.log(resumeData.education)
 
   return isLoading ? <h3>Loading...</h3> : (
     <div className='wrapper'>
@@ -25,24 +24,24 @@ const Resume = () => {
               <div className="education">
                 <h2>Education.</h2>
                 <ul>
-                  {resumeData.education.map( (item) => 
-                    <li>{item}</li>
+                  {resumeData.education.map( (item, index) => 
+                    <li key={index}>{item}</li>
                   )}
                 </ul>
               </div>
               <div className="technology">
                 <h2>Technology.</h2>
                 <ul>
-                {resumeData.technology.map( (item) => 
-                    <li>{item}</li>
+                {resumeData.technology.map( (item, index) => 
+                    <li key={index}>{item}</li>
                   )}
                 </ul>
               </div>
               <div className="concepts">
                 <h2>Skills.</h2>
                 <ul>
-                {resumeData.skills.map( (item) => 
-                    <li>{item}</li>
+                {resumeData.skills.map( (item, index) => 
+                    <li key={index}>{item}</li>
                   )}
                 </ul>
               </div>
@@ -52,9 +51,9 @@ const Resume = () => {
         <div className='download-box'>
           <a className="btn btn--landing btn--accent" href={resumePdf} target="_blank">Download Resume</a>
         </div>
+
+        <Footer />
       </main>
-      
-      <Footer />
     </div>
   )
 }

@@ -19,11 +19,6 @@ app.use('/uploads', express.static('uploads'))
 app.use(express.json())
 app.use(express.urlencoded({extended: true}))
 
-
-app.get('/', (req,res) => {
-    res.status(200).json('This is the root of my express application')
-})
-
 // connect to database
 connectDB();
 

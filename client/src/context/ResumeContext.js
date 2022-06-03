@@ -1,3 +1,4 @@
+// import axios from "axios";
 import { createContext, useState, useEffect } from "react";
 
 const ResumeContext = createContext();
@@ -16,9 +17,8 @@ export const ResumeProvider = ({children}) => {
          // Fetch resume from db function
      const fetchResume = async () => {
         const response = await fetch(`/api/about?_sort=id&_order=desc`)
-        console.log(response)
-        const data = await response.json()    
-        setResumeData(data)
+        const data = await response.json() 
+        setResumeData(data[0])
         setIsLoading(false)
     }
     

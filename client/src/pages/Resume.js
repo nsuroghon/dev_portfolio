@@ -10,6 +10,7 @@ import Footer from '../components/Footer';
 
 const Resume = () => {
   const {resumeData, isLoading} = useContext(ResumeContext);
+  console.log(resumeData.education)
 
   return isLoading ? <h3>Loading...</h3> : (
     <div className='wrapper'>

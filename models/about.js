@@ -2,14 +2,14 @@ const mongoose = require('mongoose');
 const { Schema } = mongoose
 
 // const aboutSchema = new Schema ({
-//     type: { type: String },
-//     content: [{ type: String }]
+//     education: [{ type: String }],
+//     technology: [{ type: String }],
+//     skills: [{type: String}]
 // })
-
 const aboutSchema = new Schema ({
-    education: [{ type: String }],
-    technology: [{ type: String }],
-    skills: [{type: String}]
+    education: {type: Array, "default": []},
+    technology: {type: Array, "default": []},
+    skills: {type: Array, "default": []}
 })
 
 const About = mongoose.model("About", aboutSchema)

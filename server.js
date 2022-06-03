@@ -1,4 +1,5 @@
 const express = require('express');
+const cors = require('cors');
 const colors = require('colors');
 const dotenv = require('dotenv'). config();
 const {errorHandler} = require('./middleware/errorMiddleware')
@@ -8,8 +9,11 @@ const PORT = process.env.PORT || 8000;
 const routes = require('./routes')
 
 const app = express();
-// make uploads static/publicly available
-// app.use(express.static(__dirname + "uploads"))
+
+app.use(cors({
+    origin: 'http://localhost:8080',
+    credentials: true
+  }));
 
 app.use('/uploads', express.static('uploads'))
 app.use(express.json())
@@ -26,6 +30,17 @@ connectDB();
 // routes
 // app.use('/api/data', require('./routes'))
 app.use(routes)
+
+// serve front end
+if (process.env.NODE_ENV === 'production') {
+  // Set build folder as static
+  app.use(express.static(path.join(__dirname, './client/build')));
+
+  // Handle React routing, return all requests to React app
+  app.get('*', function(req, res) {
+      res.sendFile(path.join(__dirname, './client/build', 'index.html'));
+  });
+}
 
 app.use(errorHandler)
 

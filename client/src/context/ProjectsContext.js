@@ -1,4 +1,5 @@
 import { createContext, useState, useEffect } from "react";
+// import axios from 'axios';
 
 const ProjectsContext = createContext();
 
@@ -17,16 +18,9 @@ export const ProjectsProvider = ({children}) => {
     }, [])
 
     // Fetch Projects from db function
-    // const fetchProjects = async () => {
-    //     const response = await fetch(`/api/projects`)
-    //     const data = await response.json()
-
-    //     setProjects(data)
-    // }
     const fetchProjects = async () => {
         const response = await fetch(`/api/projects?_sort=id&_order=desc`)
         const data = await response.json()
-
         setProjects(data)
     }
     
